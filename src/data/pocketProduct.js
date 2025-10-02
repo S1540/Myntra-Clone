@@ -125,3 +125,56 @@ export const products = [
       "https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2025/SEPTEMBER/17/Mu72Mcai_1576d23d2ab94af6b260ec733df25269.png",
   },
 ];
+
+export const OMGproduct = [
+  {
+    id: 1,
+    image:
+      "https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2025/SEPTEMBER/15/MyEPVH96_6638dcf5078a469780f62f521da047b1.png",
+  },
+  {
+    id: 2,
+    image:
+      "https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2025/SEPTEMBER/15/r48xkDRC_a1b571c14b484221987507b88b4d39fd.png",
+  },
+  {
+    id: 3,
+    image:
+      "https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2025/SEPTEMBER/7/qdKbCWuY_29620ceac5554fb5bbc5670d6bacea04.png",
+  },
+  {
+    id: 4,
+    image:
+      "https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2025/SEPTEMBER/7/QWQApFbm_7350fcd0d2164b68a515d99156014345.png",
+  },
+  {
+    id: 5,
+    image:
+      "https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2025/SEPTEMBER/5/n3u3NrIA_bfa5eeac3c1449b987efa298a90fc990.png",
+  },
+  {
+    id: 6,
+    image:
+      "https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2025/SEPTEMBER/15/TnaTa2yc_13284f73d0574e68bf3c409d9fc14d57.png",
+  },
+  {
+    id: 7,
+    image:
+      "https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2025/SEPTEMBER/5/ZY4OM0HK_1cba78be1bfb4c038f3ef787e3e027fb.png",
+  },
+  {
+    id: 8,
+    image:
+      "https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2025/SEPTEMBER/15/d6VKPVIU_041de147f8c546db971714e67297422f.png",
+  },
+  {
+    id: 9,
+    image:
+      "https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2025/SEPTEMBER/5/ZY4OM0HK_1cba78be1bfb4c038f3ef787e3e027fb.png",
+  },
+  {
+    id: 10,
+    image:
+      "https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2025/SEPTEMBER/5/zaAT3ogj_9a640d787a1f417fb41ac2cb1fd2f507.png",
+  },
+];
