@@ -1,12 +1,27 @@
+import { useState, useEffect } from "react";
 import Header from "./components/Header";
 import HeroSec from "./components/ViewPointHome/HeroSec";
+import MyntraLoader from "./components/MyntraLoader";
 // import ProductCarousel from "./components/ViewPointHome/ProductCarousel";
 
 function App() {
+  const [loader, setLoader] = useState(true);
+  useEffect(() => {
+    const timer = setTimeout(() => {
+      setLoader(false);
+    }, 1000);
+    return () => clearTimeout(timer);
+  });
   return (
     <>
-      <Header />
-      <HeroSec />
+      {loader ? (
+        <MyntraLoader />
+      ) : (
+        <>
+          <Header />
+          <HeroSec />
+        </>
+      )}
     </>
   );
 }

@@ -39,11 +39,11 @@ const HeroSec = () => {
         </div>
 
         {/* Pocket Frendly & OMG Offers */}
-        <div className="relative">
+        <div className="">
           <div className="py-3">
             <img src={PocketHeading} alt="Pocket-Heading" />
           </div>
-          <div className="max-w-full pb-5">
+          <div className="max-w-full pb-2 md:pb-4">
             <Swiper
               slidesPerView={6}
               slidesPerGroup={5}
@@ -56,7 +56,7 @@ const HeroSec = () => {
               pagination={{
                 clickable: true,
                 dynamicBullets: true,
-                el: ".swiper-pagination",
+                el: ".swiper-pagination-pocket",
               }}
               modules={[Autoplay, Pagination]}
             >
@@ -71,6 +71,7 @@ const HeroSec = () => {
                 </SwiperSlide>
               ))}
             </Swiper>
+            <div className="swiper-pagination-pocket mt-4 mx-auto"></div>
           </div>
         </div>
 
@@ -79,7 +80,7 @@ const HeroSec = () => {
           <div className="py-3">
             <img src={OmgHeading} alt="Pocket-Heading" />
           </div>
-          <div className="max-w-full pb-5">
+          <div className="max-w-full pb-2 md:pb-4">
             <Swiper
               slidesPerView={5}
               slidesPerGroup={5}
@@ -92,7 +93,7 @@ const HeroSec = () => {
               pagination={{
                 clickable: true,
                 dynamicBullets: true,
-                el: ".swiper-pagination",
+                el: ".swiper-pagination-custom",
               }}
               modules={[Autoplay, Pagination]}
             >
@@ -107,6 +108,8 @@ const HeroSec = () => {
                 </SwiperSlide>
               ))}
             </Swiper>
+
+            <div className="swiper-pagination-custom mt-4 mx-auto"></div>
           </div>
         </div>
       </section>
