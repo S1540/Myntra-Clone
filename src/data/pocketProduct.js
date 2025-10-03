@@ -178,3 +178,127 @@ export const OMGproduct = [
       "https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2025/SEPTEMBER/5/zaAT3ogj_9a640d787a1f417fb41ac2cb1fd2f507.png",
   },
 ];
+
+// Category Spacial
+export const CategoryItems = [
+  {
+    id: 1,
+    image:
+      "https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2025/SEPTEMBER/17/qYO6lYY5_76cad06d8aa6417488ae806c0bf34cf6.jpg",
+  },
+  {
+    id: 2,
+    image:
+      "https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2025/SEPTEMBER/17/HwlCF5xv_9682b7e9a8124a2f862607647251f619.jpg",
+  },
+  {
+    id: 3,
+    image:
+      "https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2025/SEPTEMBER/17/H5U2UpBA_4091d85c93b843d3beeaf815aab68ca1.jpg",
+  },
+  {
+    id: 4,
+    image:
+      "https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2025/SEPTEMBER/17/8OwbWpMH_345b9c279a0541d8adb85604cb4a2ef5.jpg",
+  },
+  {
+    id: 5,
+    image:
+      "https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2025/SEPTEMBER/17/3AbyR7k0_60a3e13e82204309a583af0e9d968d9b.jpg",
+  },
+  {
+    id: 6,
+    image:
+      "https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2025/SEPTEMBER/17/jrYHJuiN_ff32e29e39a34a3faf67f62683908f3c.jpg",
+  },
+  {
+    id: 7,
+    image:
+      "https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2025/SEPTEMBER/17/GQXOltY1_ea4ccb5d3e3945cba4bfea4167d8433c.jpg",
+  },
+  {
+    id: 8,
+    image:
+      "https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2025/SEPTEMBER/17/W7wBugSI_96a0802fb8614274b2b1c1d0de38bd61.jpg",
+  },
+  {
+    id: 9,
+    image:
+      "https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2025/SEPTEMBER/17/dRzLqvkN_c803ab7fa5fe42d5a0e9f1e55827173c.jpg",
+  },
+  {
+    id: 10,
+    image:
+      "https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2025/SEPTEMBER/17/6QBmETey_5dd1c702760c407aaedc59a2d83f4506.jpg",
+  },
+  {
+    id: 11,
+    image:
+      "https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2025/SEPTEMBER/17/bascHSb0_4d8bb4cd13674c75a4f6fd764c2fd01d.jpg",
+  },
+  {
+    id: 12,
+    image:
+      "https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2025/SEPTEMBER/17/ziRMJzca_6764af044d8449768ed2c0a260703ec2.jpg",
+  },
+  {
+    id: 13,
+    image:
+      "https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2025/SEPTEMBER/17/XTJ4aU5d_8048fefc74f64e5b9eef0102a7b21cfa.jpg",
+  },
+  {
+    id: 14,
+    image:
+      "https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2025/SEPTEMBER/17/kBM102rv_cba26f65ea694db7ab7e3068d75242ab.jpg",
+  },
+  {
+    id: 15,
+    image:
+      "https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2025/SEPTEMBER/17/PVQ5Uabf_a3fc980bee224708be4f44fda5e743bf.jpg",
+  },
+  {
+    id: 16,
+    image:
+      "https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2025/SEPTEMBER/17/Rsmk85KD_b196d0405c804a5586b81390b36fa3d9.jpg",
+  },
+  {
+    id: 17,
+    image:
+      "https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2025/SEPTEMBER/17/BS9frywJ_6117e982847c42fdb8e8a01620f17f31.jpg",
+  },
+  {
+    id: 18,
+    image:
+      "https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2025/SEPTEMBER/17/BS9frywJ_6117e982847c42fdb8e8a01620f17f31.jpg",
+  },
+  {
+    id: 19,
+    image:
+      "https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2025/SEPTEMBER/17/FSgB10By_d69049fefdab495d836bb1f940c35db0.jpg",
+  },
+  {
+    id: 20,
+    image:
+      "https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2025/SEPTEMBER/17/T0xqKgwq_58992031ed3645e1beba88d7956dca07.jpg",
+  },
+  {
+    id: 21,
+    image:
+      "https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2025/SEPTEMBER/17/3AbyR7k0_60a3e13e82204309a583af0e9d968d9b.jpg",
+  },
+  {
+    id: 22,
+    image:
+      "https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2025/SEPTEMBER/17/ImUw0wQe_ebf7f86cbb7f4543af15dcebaf3ba81a.jpg",
+  },
+  {
+    id: 23,
+    image:
+      "https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2025/SEPTEMBER/17/BS9frywJ_6117e982847c42fdb8e8a01620f17f31.jpg",
+  },
+  {
+    id: 24,
+    image:
+      "https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2025/SEPTEMBER/17/8OwbWpMH_345b9c279a0541d8adb85604cb4a2ef5.jpg",
+  },
+];

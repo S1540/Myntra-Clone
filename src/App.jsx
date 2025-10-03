@@ -2,6 +2,7 @@ import { useState, useEffect } from "react";
 import Header from "./components/Header";
 import HeroSec from "./components/ViewPointHome/HeroSec";
 import MyntraLoader from "./components/MyntraLoader";
+import CategorySpecial from "./components/ViewPointHome/CategorySpecial";
 // import ProductCarousel from "./components/ViewPointHome/ProductCarousel";
 
 function App() {
@@ -20,6 +21,7 @@ function App() {
         <>
           <Header />
           <HeroSec />
+          <CategorySpecial />
         </>
       )}
     </>
