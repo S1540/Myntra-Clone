@@ -2,9 +2,18 @@ import React from "react";
 import { IoSearchOutline } from "react-icons/io5";
 import { FaRegUser, FaRegHeart } from "react-icons/fa";
 import { HiOutlineShoppingBag, HiBars3 } from "react-icons/hi2";
+import { NavLink } from "react-router-dom";
 
 const Header = () => {
-  const navlinks = ["MEN", "WOMEN", "KIDS", "HOME", "BEAUTY", "GENZ", "STUDIO"];
+  const navlinks = [
+    { name: "MEN", path: "/men" },
+    { name: "WOMEN", path: "/women" },
+    { name: "KIDS", path: "/kids" },
+    { name: "HOME", path: "/home" },
+    { name: "BEAUTY", path: "/beauty" },
+    { name: "GENZ", path: "/genz" },
+    { name: "STUDIO", path: "/studio" },
+  ];
 
   return (
     <>
@@ -15,28 +24,34 @@ const Header = () => {
 
             {/* Logo */}
             <div className="w-20 h-10 md:h-12 flex-shrink-0">
-              <img
-                src="https://www.freepnglogos.com/uploads/logo-myntra-png/myntra-logo-m-png-3.png"
-                alt="Myntra Logo"
-                className="w-full h-full object-cover"
-              />
+              <NavLink to="/">
+                <img
+                  src="https://www.freepnglogos.com/uploads/logo-myntra-png/myntra-logo-m-png-3.png"
+                  alt="Myntra Logo"
+                  className="w-full h-full object-cover"
+                />
+              </NavLink>
             </div>
           </div>
 
-          {/* Nav Links (desktop only) */}
+          {/* Nav Links */}
           <nav className="hidden md:flex gap-7 text-sm font-semibold text-gray-800">
             {navlinks.map((link, index) => (
-              <a
-                href="#"
+              <NavLink
+                to={link.path}
                 key={index}
-                className="hover:text-pink-600 transition-colors"
+                className={({ isActive }) =>
+                  isActive
+                    ? "text-pink-600 border-b-2 border-pink-600 transition-colors"
+                    : "hover:text-pink-600 transition-colors"
+                }
               >
-                {link}
-              </a>
+                {link.name}
+              </NavLink>
             ))}
           </nav>
 
-          {/* Search Bar (desktop only) */}
+          {/* Search Bar */}
           <div className="hidden md:block relative max-w-md w-full mx-4">
             <IoSearchOutline className="absolute left-3 top-3 text-gray-500" />
             <input
@@ -46,7 +61,7 @@ const Header = () => {
             />
           </div>
 
-          {/* Right Section: Icons */}
+          {/* Right Section */}
           <div className="flex items-center gap-5">
             <div className="flex items-center gap-6 font-medium">
               <div className="flex flex-col items-center">

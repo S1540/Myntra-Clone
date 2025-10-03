@@ -6,7 +6,7 @@ import { SiMediamarkt } from "react-icons/si";
 const Footer = () => {
   return (
     <>
-      <section className="px-4 py-10 bg-gray-200">
+      <section className="px-4 py-10 bg-gray-100">
         <div className="max-w-7xl mx-auto grid grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-8 border-b border-gray-500 pb-8">
           {/* Col-1 */}
           <div className="flex flex-col gap-2 text-sm text-gray-600">
