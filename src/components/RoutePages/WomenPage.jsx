@@ -1,33 +1,24 @@
 import React from "react";
 import offerBanner from "../../assets/ViewPointHome/Thin-500Off.webp";
-import MenBanner from "../../assets/Men-banner-1.webp";
+import WoMenBanner from "../../assets/Women-banner-1.webp";
 import subBanner1 from "../../assets/ViewPointHome/Sub-img-1.webp";
 import subBanner2 from "../../assets/ViewPointHome/Sub-img-2.webp";
 import subBanner3 from "../../assets/ViewPointHome/Sub-img-3.webp";
 import heroDishcountGif from "../../assets/ViewPointHome/Hero-discount.gif";
-import PocketHeading from "../../assets/ViewPointHome/Pocket-frendly.webp";
-import OmgHeading from "../../assets/ViewPointHome/OMG DEALS.webp";
-import { products, OMGproduct } from "../../data/pocketProduct";
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import "swiper/css/pagination";
-import { Autoplay, Pagination } from "swiper/modules";
-import CategorySpecial from "../ViewPointHome/CategorySpecial";
-import { CategoryItems } from "../../data/pocketProduct";
+import { products, OMGproduct, CategoryItems } from "../../data/pocketProduct";
 import PocketFrendly from "../ViewPointHome/PocketFrendly";
 import OMGdeals from "../ViewPointHome/OMGdeals";
+import CategorySpecial from "../ViewPointHome/CategorySpecial";
 
-const MenPage = () => {
-  const menProducts = products.filter(
-    (item) => item.categories === "Men" || item.categories === "General"
+const WomenPage = () => {
+  const womenProducts = products.filter(
+    (item) => item.categories === "Women" || item.categories === "General"
   );
-
-  const menOMGProducts = OMGproduct.filter(
-    (item) => item.categories === "Men" || item.categories === "General"
+  const womenOMGProducts = OMGproduct.filter(
+    (item) => item.categories === "Women" || item.categories === "General"
   );
-
-  const menCategoriesProducts = CategoryItems.filter(
-    (item) => item.categories === "Men" || item.categories === "General"
+  const womenCategoriesProducts = CategoryItems.filter(
+    (item) => item.categories === "Women" || item.categories === "General"
   );
 
   return (
@@ -42,7 +33,7 @@ const MenPage = () => {
             />
           </div>
           <div>
-            <img src={MenBanner} alt="Men-Banner" className="object-cover" />
+            <img src={WoMenBanner} alt="Men-Banner" className="object-cover" />
           </div>
           <div className="grid grid-cols-3 gap-0 mt-0">
             <img src={subBanner1} alt="" />
@@ -53,14 +44,13 @@ const MenPage = () => {
             <img src={heroDishcountGif} alt="" className="w-full " />
           </div>
         </div>
-
         {/* Pocket And OMG & Categories Mens */}
-        <PocketFrendly products={menProducts} />
-        <OMGdeals OMGproduct={menOMGProducts} />
-        <CategorySpecial CategoryItems={menCategoriesProducts} />
+        <PocketFrendly products={womenProducts} />
+        <OMGdeals OMGproduct={womenOMGProducts} />
+        <CategorySpecial CategoryItems={womenCategoriesProducts} />
       </section>
     </>
   );
 };
 
-export default MenPage;
+export default WomenPage;

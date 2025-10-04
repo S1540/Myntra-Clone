@@ -6,7 +6,8 @@ import CategorySpecial from "./components/ViewPointHome/CategorySpecial";
 import { CategoryItems } from "./data/pocketProduct";
 import Footer from "./components/Footer";
 import { BrowserRouter, Route, Routes } from "react-router-dom";
-import MenPage from "./components/Men/MenPage";
+import MenPage from "./components/RoutePages/MenPage";
+import WomenPage from "./components/RoutePages/WomenPage";
 
 function App() {
   const [loader, setLoader] = useState(true);
@@ -38,6 +39,7 @@ function App() {
             />
 
             <Route path="/men" element={<MenPage />} />
+            <Route path="/women" element={<WomenPage />} />
           </Routes>
           <Footer />
         </BrowserRouter>
