@@ -6,13 +6,9 @@ import subBanner1 from "../../assets/ViewPointHome/Sub-img-1.webp";
 import subBanner2 from "../../assets/ViewPointHome/Sub-img-2.webp";
 import subBanner3 from "../../assets/ViewPointHome/Sub-img-3.webp";
 import heroDishcountGif from "../../assets/ViewPointHome/Hero-discount.gif";
-import PocketHeading from "../../assets/ViewPointHome/Pocket-frendly.webp";
-import OmgHeading from "../../assets/ViewPointHome/OMG DEALS.webp";
-import { Swiper, SwiperSlide } from "swiper/react";
-import "swiper/css";
-import "swiper/css/pagination";
-import { Autoplay, Pagination } from "swiper/modules";
 import { OMGproduct, products } from "../../data/pocketProduct";
+import PocketFrendly from "./PocketFrendly";
+import OMGdeals from "./OMGdeals";
 
 const HeroSec = () => {
   return (
@@ -37,81 +33,9 @@ const HeroSec = () => {
         <div className="max-w-full w-full">
           <img src={heroDishcountGif} alt="" className="w-full " />
         </div>
-
-        {/* Pocket Frendly & OMG Offers */}
-        <div className="">
-          <div className="py-3">
-            <img src={PocketHeading} alt="Pocket-Heading" />
-          </div>
-          <div className="max-w-full pb-2 md:pb-4">
-            <Swiper
-              slidesPerView={6}
-              slidesPerGroup={5}
-              spaceBetween={10}
-              loop={true}
-              autoplay={{
-                delay: 4000,
-                disableOnInteraction: false,
-              }}
-              pagination={{
-                clickable: true,
-                dynamicBullets: true,
-                el: ".swiper-pagination-pocket",
-              }}
-              modules={[Autoplay, Pagination]}
-            >
-              {products.map((item, i) => (
-                <SwiperSlide key={i}>
-                  <div className="max-w-64 w-full bg-white rounded-lg shadow-md cursor-pointer">
-                    <img
-                      src={item.image}
-                      className="w-full object-cover rounded-md"
-                    />
-                  </div>
-                </SwiperSlide>
-              ))}
-            </Swiper>
-            <div className="swiper-pagination-pocket mt-4 mx-auto"></div>
-          </div>
-        </div>
-
-        {/* OMG Deals */}
-        <div className="py-4">
-          <div className="py-3">
-            <img src={OmgHeading} alt="Pocket-Heading" />
-          </div>
-          <div className="max-w-full pb-2 md:pb-4">
-            <Swiper
-              slidesPerView={5}
-              slidesPerGroup={5}
-              spaceBetween={10}
-              loop={true}
-              autoplay={{
-                delay: 4000,
-                disableOnInteraction: false,
-              }}
-              pagination={{
-                clickable: true,
-                dynamicBullets: true,
-                el: ".swiper-pagination-custom",
-              }}
-              modules={[Autoplay, Pagination]}
-            >
-              {OMGproduct.map((item, i) => (
-                <SwiperSlide key={i}>
-                  <div className="max-w-64 w-full bg-white rounded-lg shadow-md cursor-pointer">
-                    <img
-                      src={item.image}
-                      className="w-full object-cover rounded-md"
-                    />
-                  </div>
-                </SwiperSlide>
-              ))}
-            </Swiper>
-
-            <div className="swiper-pagination-custom mt-4 mx-auto"></div>
-          </div>
-        </div>
+        {/* Pocked And OMG Deals */}
+        <PocketFrendly products={products} />
+        <OMGdeals OMGproduct={OMGproduct} />
       </section>
     </>
   );

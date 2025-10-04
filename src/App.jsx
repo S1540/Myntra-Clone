@@ -3,8 +3,8 @@ import Header from "./components/Header";
 import HeroSec from "./components/ViewPointHome/HeroSec";
 import MyntraLoader from "./components/MyntraLoader";
 import CategorySpecial from "./components/ViewPointHome/CategorySpecial";
+import { CategoryItems } from "./data/pocketProduct";
 import Footer from "./components/Footer";
-
 import { BrowserRouter, Route, Routes } from "react-router-dom";
 import MenPage from "./components/Men/MenPage";
 
@@ -32,7 +32,7 @@ function App() {
               element={
                 <>
                   <HeroSec />
-                  <CategorySpecial />
+                  <CategorySpecial CategoryItems={CategoryItems} />
                 </>
               }
             />

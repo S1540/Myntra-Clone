@@ -1,8 +1,8 @@
 import React from "react";
 import CategoryHeading from "../../assets/ViewPointHome/Category-heading.webp";
 import MobileApp from "../../assets/ViewPointHome/MobileApp-Download.webp";
-import { CategoryItems } from "../../data/pocketProduct";
-const CategorySpecial = () => {
+
+const CategorySpecial = ({ CategoryItems }) => {
   return (
     <>
       <section className="max-w-full w-full px-4">

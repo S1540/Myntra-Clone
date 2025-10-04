@@ -6,13 +6,30 @@ import subBanner2 from "../../assets/ViewPointHome/Sub-img-2.webp";
 import subBanner3 from "../../assets/ViewPointHome/Sub-img-3.webp";
 import heroDishcountGif from "../../assets/ViewPointHome/Hero-discount.gif";
 import PocketHeading from "../../assets/ViewPointHome/Pocket-frendly.webp";
-import { products } from "../../data/pocketProduct";
+import OmgHeading from "../../assets/ViewPointHome/OMG DEALS.webp";
+import { products, OMGproduct } from "../../data/pocketProduct";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Autoplay, Pagination } from "swiper/modules";
+import CategorySpecial from "../ViewPointHome/CategorySpecial";
+import { CategoryItems } from "../../data/pocketProduct";
+import PocketFrendly from "../ViewPointHome/PocketFrendly";
+import OMGdeals from "../ViewPointHome/OMGdeals";
 
 const MenPage = () => {
+  const menProducts = products.filter(
+    (item) => item.categories === "Men" || item.categories === "General"
+  );
+
+  const menOMGProducts = OMGproduct.filter(
+    (item) => item.categories === "Men" || item.categories === "General"
+  );
+
+  const menCategoriesProducts = CategoryItems.filter(
+    (item) => item.categories === "Men" || item.categories === "General"
+  );
+
   return (
     <>
       <section className="px-5 md:px-10">
@@ -37,42 +54,10 @@ const MenPage = () => {
           </div>
         </div>
 
-        {/* Pocket Frendly Mens */}
-        <div className="">
-          <div className="py-3">
-            <img src={PocketHeading} alt="Pocket-Heading" />
-          </div>
-          <div className="max-w-full pb-2 md:pb-4">
-            <Swiper
-              slidesPerView={6}
-              slidesPerGroup={5}
-              spaceBetween={10}
-              loop={true}
-              autoplay={{
-                delay: 4000,
-                disableOnInteraction: false,
-              }}
-              pagination={{
-                clickable: true,
-                dynamicBullets: true,
-                el: ".swiper-pagination-pocket",
-              }}
-              modules={[Autoplay, Pagination]}
-            >
-              {products.map((item, i) => (
-                <SwiperSlide key={i}>
-                  <div className="max-w-64 w-full bg-white rounded-lg shadow-md cursor-pointer">
-                    <img
-                      src={item.image}
-                      className="w-full object-cover rounded-md"
-                    />
-                  </div>
-                </SwiperSlide>
-              ))}
-            </Swiper>
-            <div className="swiper-pagination-pocket mt-4 mx-auto"></div>
-          </div>
-        </div>
+        {/* Pocket And OMG & Categories Mens */}
+        <PocketFrendly products={menProducts} />
+        <OMGdeals OMGproduct={menOMGProducts} />
+        <CategorySpecial CategoryItems={menCategoriesProducts} />
       </section>
     </>
   );
