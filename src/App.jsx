@@ -1,4 +1,5 @@
 import { useState, useEffect } from "react";
+import ScrollToTop from "./components/ScrollToTop";
 import Header from "./components/Header";
 import HeroSec from "./components/ViewPointHome/HeroSec";
 import MyntraLoader from "./components/MyntraLoader";
@@ -25,6 +26,7 @@ function App() {
         <MyntraLoader />
       ) : (
         <BrowserRouter>
+          <ScrollToTop />
           <Header />
           <Routes>
             {/* Homepage */}
