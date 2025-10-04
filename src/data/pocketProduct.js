@@ -149,6 +149,31 @@ export const products = [
       "https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2025/SEPTEMBER/17/Mu72Mcai_1576d23d2ab94af6b260ec733df25269.png",
     categories: "Men",
   },
+  {
+    id: 26,
+    image:
+      "https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2025/SEPTEMBER/17/xEjXP4Wh_f0a8711a27ed4a789416957da7b9bf4c.png",
+    categories: "Women",
+  },
+  {
+    id: 27,
+    image:
+      "https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2025/SEPTEMBER/17/IRbb9EIK_6803e6a21b57490e84517c2a621bf302.png",
+    categories: "Women",
+  },
+  {
+    id: 28,
+    image:
+      "https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2025/SEPTEMBER/17/mdOUIu4f_66b2b57618ea4fbaaebb943c92ebf281.png",
+    categories: "Women",
+  },
+
+  {
+    id: 29,
+    image:
+      "https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2025/SEPTEMBER/17/AZPwx2tJ_9bde03949abc46c7addddfdf3834b61f.png",
+    categories: "Women",
+  },
 ];
 
 export const OMGproduct = [
@@ -211,6 +236,72 @@ export const OMGproduct = [
     image:
       "https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2025/SEPTEMBER/5/zaAT3ogj_9a640d787a1f417fb41ac2cb1fd2f507.png",
     categories: "Women",
+  },
+  {
+    id: 11,
+    image:
+      "https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2025/SEPTEMBER/5/SLUuRhdZ_a51f8e1e20e546cca617e69bf4eced23.png",
+    categories: "Women",
+  },
+  {
+    id: 11,
+    image:
+      "https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2025/SEPTEMBER/7/0oOllys9_15176c9c355e4addbddfc0872c4cf4dd.png",
+    categories: "Women",
+  },
+  {
+    id: 12,
+    image:
+      "https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2025/SEPTEMBER/16/1EkaDSYU_9efd6cab0a264195bc7197338eadc936.png",
+    categories: "Women",
+  },
+  {
+    id: 13,
+    image:
+      "https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2025/SEPTEMBER/5/zhAupDWs_a026b850a734439e915acb23097216b4.png",
+    categories: "Women",
+  },
+  {
+    id: 14,
+    image:
+      "https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2025/SEPTEMBER/5/fKC3B7ap_a3b53162deea40caa21de954809beca0.png",
+    categories: "Women",
+  },
+  {
+    id: 15,
+    image:
+      "https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2025/SEPTEMBER/7/1StbS9MZ_f3fd167bc8f24b14af4dd6f9cdc7e4a4.png",
+    categories: "Women",
+  },
+  {
+    id: 16,
+    image:
+      "https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2025/SEPTEMBER/5/AOIhMyDt_5596b92248a8485bbf0d904c7701a55d.png",
+    categories: "Women",
+  },
+  {
+    id: 17,
+    image:
+      "https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2025/SEPTEMBER/16/CYJtRceF_d70f96ad12c64ceb86c3c69a99196405.png",
+    categories: "Men",
+  },
+  {
+    id: 18,
+    image:
+      "https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2025/SEPTEMBER/5/n3u3NrIA_bfa5eeac3c1449b987efa298a90fc990.png",
+    categories: "Men",
+  },
+  {
+    id: 19,
+    image:
+      "https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2025/SEPTEMBER/15/r48xkDRC_a1b571c14b484221987507b88b4d39fd.png",
+    categories: " Men",
+  },
+  {
+    id: 20,
+    image:
+      "https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2025/SEPTEMBER/16/BQtFU5ks_8f213474ca2347aba27943cae30629c8.png",
+    categories: "Men",
   },
 ];
 
