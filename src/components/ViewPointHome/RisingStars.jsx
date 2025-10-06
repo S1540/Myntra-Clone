@@ -3,21 +3,19 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Autoplay, Pagination } from "swiper/modules";
-import PocketHeading from "../../assets/ViewPointHome/Pocket-frendly.webp";
-// import { products } from "../../data/pocketProduct";
 
-const PocketFrendly = ({ products }) => {
+const PocketFrendly = ({ RisingStarsData }) => {
   return (
     <>
       <div className="">
-        <div className="py-3">
-          <img src={PocketHeading} alt="Pocket-Heading" />
+        <div className="py-10 text-2xl md:text-3xl font-bold tracking-widest text-gray-700 px-8 ">
+          <h1>RISING STARS</h1>
         </div>
         <div className="max-w-full pb-2 md:pb-4">
           <Swiper
-            slidesPerView={6}
+            slidesPerView={5}
             slidesPerGroup={5}
-            spaceBetween={10}
+            spaceBetween={0}
             loop={true}
             autoplay={{
               delay: 4000,
@@ -30,13 +28,10 @@ const PocketFrendly = ({ products }) => {
             }}
             modules={[Autoplay, Pagination]}
           >
-            {products.map((item, i) => (
+            {RisingStarsData.map((item, i) => (
               <SwiperSlide key={i}>
-                <div className="max-w-64 w-full bg-white rounded-lg shadow-md cursor-pointer">
-                  <img
-                    src={item.image}
-                    className="w-full object-cover rounded-md"
-                  />
+                <div className="max-w-80 w-full bg-white shadow-md cursor-pointer">
+                  <img src={item.image} className="w-full object-cover " />
                 </div>
               </SwiperSlide>
             ))}
