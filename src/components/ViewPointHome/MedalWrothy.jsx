@@ -3,24 +3,24 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Autoplay, Pagination } from "swiper/modules";
-const PocketFrendly = ({ RisingStarsData }) => {
+
+const MedalWrothy = ({ ModalWrothyData }) => {
   return (
     <>
-      {" "}
       <div className="">
-        {" "}
-        <div className="py-15 text-2xl font-bold tracking-widest text-gray-700 px-5 ">
-          {" "}
-          <h1>RISING STARS</h1>{" "}
-        </div>{" "}
+        <div className="py-15 text-2xl font-bold tracking-widest text-gray-700 px-5">
+          <h1>MEDAL WORTHY BRANDS TO BAG</h1>
+        </div>
         <div className="max-w-full pb-2 md:pb-4">
-          {" "}
           <Swiper
-            slidesPerView={5}
-            slidesPerGroup={5}
+            slidesPerView={6}
+            slidesPerGroup={6}
             spaceBetween={0}
             loop={true}
-            autoplay={{ delay: 2500, disableOnInteraction: false }}
+            autoplay={{
+              delay: 3000,
+              disableOnInteraction: false,
+            }}
             pagination={{
               clickable: true,
               dynamicBullets: true,
@@ -28,18 +28,19 @@ const PocketFrendly = ({ RisingStarsData }) => {
             }}
             modules={[Autoplay, Pagination]}
           >
-            {RisingStarsData.map((item, i) => (
+            {ModalWrothyData.map((item, i) => (
               <SwiperSlide key={i}>
                 <div className="max-w-80 w-full bg-white shadow-md cursor-pointer">
-                  <img src={item.image} className="w-full object-cover " />{" "}
+                  <img src={item.image} className="w-full object-cover " />
                 </div>
               </SwiperSlide>
             ))}
           </Swiper>
-          <div className="swiper-pagination-pocket mt-4 mx-auto"></div>
+          <div className="swiper-pagination-pocket mt-4 flex justify-center"></div>
         </div>
       </div>
     </>
   );
 };
-export default PocketFrendly;
+
+export default MedalWrothy;

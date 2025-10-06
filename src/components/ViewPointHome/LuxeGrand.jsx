@@ -9,7 +9,7 @@ const LuxeGrand = ({ LuxeGrandData }) => {
   return (
     <>
       <div className="">
-        <div className="py-10 text-2xl md:text-3xl font-bold tracking-widest text-gray-700 px-8 ">
+        <div className="py-15 text-2xl font-bold tracking-widest text-gray-700 px-5 ">
           <h1>LUXE GRAND REDUCTION DEALS</h1>
         </div>
         <div className="max-w-full pb-2 md:pb-4">
@@ -20,7 +20,7 @@ const LuxeGrand = ({ LuxeGrandData }) => {
             loop={true}
             autoplay={{
               delay: 4000,
-              disableOnInteraction: false,
+              disableOnInteraction: true,
             }}
             pagination={{
               clickable: true,

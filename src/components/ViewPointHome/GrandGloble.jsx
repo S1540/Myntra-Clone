@@ -3,24 +3,24 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Autoplay, Pagination } from "swiper/modules";
-const PocketFrendly = ({ RisingStarsData }) => {
+
+const GrandGloble = ({ GrandGlobleData }) => {
   return (
     <>
-      {" "}
       <div className="">
-        {" "}
-        <div className="py-15 text-2xl font-bold tracking-widest text-gray-700 px-5 ">
-          {" "}
-          <h1>RISING STARS</h1>{" "}
-        </div>{" "}
+        <div className="py-15 text-2xl font-bold tracking-widest text-gray-700 px-5">
+          <h1>GRAND GLOBLE BRANDS</h1>
+        </div>
         <div className="max-w-full pb-2 md:pb-4">
-          {" "}
           <Swiper
-            slidesPerView={5}
-            slidesPerGroup={5}
+            slidesPerView={6}
+            slidesPerGroup={6}
             spaceBetween={0}
             loop={true}
-            autoplay={{ delay: 2500, disableOnInteraction: false }}
+            autoplay={{
+              delay: 3000,
+              disableOnInteraction: false,
+            }}
             pagination={{
               clickable: true,
               dynamicBullets: true,
@@ -28,10 +28,10 @@ const PocketFrendly = ({ RisingStarsData }) => {
             }}
             modules={[Autoplay, Pagination]}
           >
-            {RisingStarsData.map((item, i) => (
+            {GrandGlobleData.map((item, i) => (
               <SwiperSlide key={i}>
                 <div className="max-w-80 w-full bg-white shadow-md cursor-pointer">
-                  <img src={item.image} className="w-full object-cover " />{" "}
+                  <img src={item.image} className="w-full object-cover " />
                 </div>
               </SwiperSlide>
             ))}
@@ -42,4 +42,5 @@ const PocketFrendly = ({ RisingStarsData }) => {
     </>
   );
 };
-export default PocketFrendly;
+
+export default GrandGloble;

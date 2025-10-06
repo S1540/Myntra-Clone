@@ -7,7 +7,7 @@ import { Autoplay, Pagination } from "swiper/modules";
 const HeroSwiper = ({ HeroSwiperData }) => {
   return (
     <>
-      <div className="max-w-full pb-2">
+      <div className="max-w-full">
         <Swiper
           slidesPerView={1}
           slidesPerGroup={1}
