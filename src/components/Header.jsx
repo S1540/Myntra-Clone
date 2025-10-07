@@ -1,10 +1,13 @@
-import React from "react";
+import React, { useState } from "react";
 import { IoSearchOutline } from "react-icons/io5";
 import { FaRegUser, FaRegHeart } from "react-icons/fa";
 import { HiOutlineShoppingBag, HiBars3 } from "react-icons/hi2";
-import { NavLink } from "react-router-dom";
+import { NavLink, useNavigate } from "react-router-dom";
 
 const Header = () => {
+  const [isProfileHovered, setIsProfileHovered] = useState(false);
+  const navigate = useNavigate();
+
   const navlinks = [
     { name: "MEN", path: "/men" },
     { name: "WOMEN", path: "/women" },
@@ -14,6 +17,11 @@ const Header = () => {
     { name: "GENZ", path: "/genz" },
     { name: "STUDIO", path: "/studio" },
   ];
+
+  // Login handler
+  const handleLoginClick = () => {
+    navigate("/login");
+  };
 
   return (
     <>
@@ -64,10 +72,77 @@ const Header = () => {
           {/* Right Section */}
           <div className="flex items-center gap-5">
             <div className="flex items-center gap-6 font-medium">
-              <div className="flex flex-col items-center">
+              {/* Profile with Hover Dropdown */}
+              <div
+                className="relative flex flex-col items-center"
+                onMouseEnter={() => setIsProfileHovered(true)}
+                onMouseLeave={() => setIsProfileHovered(false)}
+              >
                 <FaRegUser className="text-xl text-gray-800 cursor-pointer" />
                 <span className="text-xs hidden md:block">Profile</span>
+
+                {/* Hover Dropdown */}
+                {isProfileHovered && (
+                  <div className="absolute top-full mt-2 bg-white shadow-lg border border-t-0 border-gray-200 rounded-sm w-56 py-4 px-6">
+                    <div className="mb-4">
+                      <h3 className="text-sm font-semibold text-gray-800 mb-1">
+                        Welcome
+                      </h3>
+                      <p className="text-xs text-gray-500">
+                        To access account and manage orders
+                      </p>
+                    </div>
+
+                    <button
+                      onClick={handleLoginClick}
+                      className="w-full py-2 px-4 border border-pink-500 text-pink-500 font-semibold text-sm hover:bg-pink-50 transition-colors rounded-sm mb-4 cursor-pointer"
+                    >
+                      LOGIN / SIGNUP
+                    </button>
+
+                    <div className="border-t border-gray-200 pt-3">
+                      <ul className="space-y-2 text-sm text-gray-700">
+                        <li className="hover:text-pink-600 cursor-pointer">
+                          Orders
+                        </li>
+                        <li className="hover:text-pink-600 cursor-pointer">
+                          Wishlist
+                        </li>
+                        <li className="hover:text-pink-600 cursor-pointer">
+                          Gift Cards
+                        </li>
+                        <li className="hover:text-pink-600 cursor-pointer">
+                          Contact Us
+                        </li>
+                        <li className="hover:text-pink-600 cursor-pointer">
+                          Myntra Insider
+                        </li>
+                      </ul>
+                    </div>
+
+                    <div className="border-t border-gray-200 mt-3 pt-3">
+                      <ul className="space-y-2 text-sm text-gray-700">
+                        <li className="hover:text-pink-600 cursor-pointer">
+                          Myntra Credit
+                        </li>
+                        <li className="hover:text-pink-600 cursor-pointer">
+                          Coupons
+                        </li>
+                        <li className="hover:text-pink-600 cursor-pointer">
+                          Saved Cards
+                        </li>
+                        <li className="hover:text-pink-600 cursor-pointer">
+                          Saved VPA
+                        </li>
+                        <li className="hover:text-pink-600 cursor-pointer">
+                          Saved Addresses
+                        </li>
+                      </ul>
+                    </div>
+                  </div>
+                )}
               </div>
+
               <div className="flex flex-col items-center">
                 <FaRegHeart className="text-xl text-gray-800 cursor-pointer" />
                 <span className="text-xs hidden md:block">Wishlist</span>

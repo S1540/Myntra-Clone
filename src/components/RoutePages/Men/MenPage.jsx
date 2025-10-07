@@ -8,7 +8,6 @@ import {
   categoriesData,
 } from "../../../data/pocketProduct";
 
-// import RisingStars from "../../ViewPointHome/RisingStars";
 import RisingStars from "../../ViewPointHome/RisingStars";
 import LuxeGrand from "../../ViewPointHome/LuxeGrand";
 import MedalWrothy from "../../ViewPointHome/MedalWrothy";
