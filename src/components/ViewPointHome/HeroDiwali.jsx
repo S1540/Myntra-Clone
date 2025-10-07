@@ -1,5 +1,6 @@
 import React from "react";
-import MenBanner from "../../assets/ViewPointHome/Men-banner.webp";
+import DiwaliBanner from "../../assets/ViewPointHome/Diwali-banner-1.webp";
+import DiwaliBanner2 from "../../assets/ViewPointHome/Diwali-banner-2.webp";
 import SubBanner from "../../assets/ViewPointHome/Sub-banner-1.webp";
 import SubBanner2 from "../../assets/ViewPointHome/Sub-banner-2.webp";
 import thinGIF from "../../assets/ViewPointHome/Banner-thin.webp";
@@ -8,10 +9,11 @@ const HeroDiwali = () => {
   return (
     <>
       <section className="px-4">
-        <div>
-          <img src={MenBanner} alt="Diwali-Banner" />
+        <div className="grid grid-cols-2">
+          <img src={DiwaliBanner} className="w-full object-cover" />
+          <img src={DiwaliBanner2} className="w-full object-cover" />
         </div>
-        <div className="grid grid-cols-2 px-6">
+        <div className="grid grid-cols-2 px-10">
           <img
             src={SubBanner}
             alt="Diwali-Banner"
