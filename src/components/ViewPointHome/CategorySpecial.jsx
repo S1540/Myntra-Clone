@@ -1,16 +1,15 @@
 import React from "react";
-import CategoryHeading from "../../assets/ViewPointHome/Category-heading.webp";
 import MobileApp from "../../assets/ViewPointHome/MobileApp-Download.webp";
 
-const CategorySpecial = ({ CategoryItems }) => {
+const CategorySpecial = ({ CategoryData }) => {
   return (
     <>
       <section className="max-w-full w-full px-4">
-        <div>
-          <img src={CategoryHeading} alt="Category-Heading" />
+        <div className="py-15 text-2xl font-bold tracking-widest text-gray-700 px-5 ">
+          <h1>SHOP BY CATEGORY</h1>
         </div>
-        <div className="w-full grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6 gap-4">
-          {CategoryItems.map((item, index) => (
+        <div className="w-full grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6">
+          {CategoryData.map((item, index) => (
             <img
               key={index}
               src={item.image}
