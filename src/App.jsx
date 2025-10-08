@@ -8,6 +8,8 @@ import { BrowserRouter, Route, Routes, useLocation } from "react-router-dom";
 import MenPage from "./components/RoutePages/Men/MenPage";
 import WomenPage from "./components/RoutePages/Women/WomenPage";
 import Login from "./components/Login";
+import KidPage from "./components/RoutePages/Kids/KidPage";
+import ProductPage from "./data/ProductPage";
 
 function AppContent() {
   const location = useLocation();
@@ -29,6 +31,8 @@ function AppContent() {
         <Route path="/men" element={<MenPage />} />
         <Route path="/women" element={<WomenPage />} />
         <Route path="/login" element={<Login />} />
+        <Route path="/kids" element={<KidPage />} />
+        <Route path="/product/:category" element={<ProductPage />} />
       </Routes>
       {!hideFooterOnRoutes.includes(location.pathname) && <Footer />}
     </>

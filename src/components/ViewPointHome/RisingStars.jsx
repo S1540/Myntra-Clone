@@ -1,4 +1,5 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
@@ -28,7 +29,9 @@ const RisingStars = ({ RisingStarsData }) => {
             {RisingStarsData.map((item, i) => (
               <SwiperSlide key={i}>
                 <div className="max-w-80 w-full bg-white shadow-md cursor-pointer">
-                  <img src={item.image} className="w-full object-cover " />{" "}
+                  <Link to={`/product/${item.category}`}>
+                    <img src={item.image} className="w-full object-cover " />{" "}
+                  </Link>
                 </div>
               </SwiperSlide>
             ))}

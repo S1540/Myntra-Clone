@@ -33,72 +33,84 @@ export const RisingStarsData = [
     image:
       "https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2025/4/3/925ace95-64e1-4692-92c0-826bde3f838b1743664826626-image_png2008444094.png",
     categories: "Men",
+    category: "mens-shirts",
   },
   {
     id: 2,
     image:
       "https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2025/4/3/08fed317-13c3-4fca-925f-4e3f904adf6e1743664846782-image_png_345798654.png",
     categories: "Women",
+    category: "womens-dresses",
   },
   {
     id: 3,
     image:
       "https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2025/4/3/edb347da-f35b-4d68-91d7-e3b0abba39f01743664908755-cf0de057-98b8-4d14-968d-8b35878100db.png",
     categories: "Women",
+    category: "tops",
   },
   {
     id: 4,
     image:
       "https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2025/4/3/9ca117d1-1c90-4217-8615-f5d9a66245251743664924386-image_png676529993.png",
-    categories: "Men",
+    categories: "Mens",
+    category: "mens-shirts",
   },
   {
     id: 5,
     image:
       "https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2025/4/3/62628ecd-af1d-4b81-8a82-302520ade5061743664952778-image_png_1238714099.png",
     categories: "Women",
+    category: "womens-dresses",
   },
   {
     id: 6,
     image:
       "https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2025/4/3/62d92229-2d9d-4cc6-933f-1facd190248c1743664969307-image_png_1434304747.png",
     categories: "Men",
+    category: "mens-shirts",
   },
   {
     id: 7,
     image:
       "https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2025/4/3/b3b8e1d5-0b7f-4ac2-988a-e1a2a4b71ef51743664985845-image_png747386139.png",
     categories: "Men",
+    category: "mens-shirts",
   },
   {
     id: 8,
     image:
       "https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2025/4/3/6d3a4cec-35ee-4002-b8c9-115b7979eb4e1743665003385-image_png225290513.png",
     categories: "Men",
+    category: "mens-shirts",
   },
   {
     id: 9,
     image:
       "https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2025/4/3/e227f4c1-b6c6-4abc-bfcf-4693266d102a1743665039878-image_png_1046077641.png",
     categories: "Women",
+    category: "womens-dresses",
   },
   {
     id: 10,
     image:
       "https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2025/4/3/a478f3f4-b261-4d42-8b41-ba8e38eed7491743665021245-3d887b9c-1741-4f13-928f-4e052f5b4858.png",
     categories: "Women",
+    category: "tops",
   },
   {
     id: 11,
     image:
       "https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2025/4/3/b17e2c3a-6827-4232-b2c7-1c7a3ed0b9ba1743665081294-image_png2131570976.png",
     categories: "General",
+    category: "Kids",
   },
   {
     id: 12,
     image:
       "https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2025/4/3/bb80e70c-df47-45e1-a5fa-770846769a7d1743665099089-image_png_852971279.png",
     categories: "Women",
+    category: "tops",
   },
 
   {
@@ -106,18 +118,20 @@ export const RisingStarsData = [
     image:
       "https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2025/4/3/f1c6e58a-b514-4081-9c10-096dde097ac91743665116601-image_png_1886899461.png",
     categories: "General",
+    category: "mens-watches",
   },
   {
     id: 14,
     image:
       "https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2025/4/3/bc244f6b-ec59-4e0a-affb-84a062bdb5e11743665134126-image_png69923319.png",
-    categories: "Women",
+    categories: "womens-jewellery",
   },
   {
     id: 15,
     image:
       "https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2025/4/3/3b8762c2-8c67-46ff-8a4e-f8d0bf6c38121743665152429-image_png282063139.png",
     categories: "Men",
+    category: "mens-shirts",
   },
 ];
 

@@ -66,3 +66,37 @@ button:focus-visible {
     background-color: #f9f9f9;
   }
 }
+
+/* Slider Thumb */
+.range-slider::-webkit-slider-thumb {
+  -webkit-appearance: none;
+  appearance: none;
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  background: #eb008b; /* Myntra Pink */
+  cursor: pointer;
+  border: none;
+}
+
+.range-slider::-moz-range-thumb {
+  height: 16px;
+  width: 16px;
+  border-radius: 50%;
+  background: #eb008b;
+  cursor: pointer;
+  border: none;
+}
+
+/* Slider Track */
+.range-slider::-webkit-slider-runnable-track {
+  height: 4px;
+  background: #eb008b; /* Track color */
+  border-radius: 2px;
+}
+
+.range-slider::-moz-range-track {
+  height: 4px;
+  background: #eb008b;
+  border-radius: 2px;
+}
