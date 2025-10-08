@@ -45,10 +45,13 @@ function ProductPage() {
   // Fetch products dynamically from API
   useEffect(() => {
     setLoading(true);
-    fetch(`https://dummyjson.com/products/category/${category}`)
+    fetch("../../public/products.json")
       .then((res) => res.json())
       .then((res) => {
-        const formatted = res.products.map((p) => ({
+        // Filter products by selected category (from useParams)
+        const filtered = res.filter((item) => item.category === category);
+
+        const formatted = filtered.map((p) => ({
           id: p.id,
           brand: p.brand || "Unknown",
           name: p.title,
@@ -59,8 +62,9 @@ function ProductPage() {
             : null,
           rating: p.rating || 0,
           reviews: p.reviews || "0",
-          image: p.thumbnail || p.images?.[0] || "",
+          image: p.image || "",
         }));
+
         setProducts(formatted);
         setLoading(false);
       })
@@ -157,7 +161,7 @@ function ProductPage() {
       <div className="max-w-full mx-auto px-4 py-6">
         <div className="flex gap-6">
           {/* Left Sidebar */}
-          <div className="w-64 flex-shrink-0">
+          <div className="w-64 flex-shrink-0 hidden md:block">
             <div className="sticky top-32 space-y-6 pb-8">
               {/* Brand Filter */}
               <div className="border-b border-gray-200 pb-4">
