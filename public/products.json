@@ -673,5 +673,65 @@
     "reviews": 4790,
     "image": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2024/DECEMBER/28/jTk7tSVf_8aec86c32fd442c792ec125dc59cd486.jpg",
     "category": "womens-wear"
+  },
+  {
+    "id": 57,
+    "brand": "BlueRang",
+    "title": "V-Neck Body Midi Dress",
+    "price": 649,
+    "originalPrice": 1099,
+    "discountPercentage": 34,
+    "rating": 4.9,
+    "reviews": 4790,
+    "image": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/29866561/2024/5/31/f926d6a9-6d32-423e-8e3e-ccc51e7e8f4d1717132198945KETCHEthnicMotifsPrintPuffSleeveSheathDress1.jpg",
+    "category": "womens-wear"
+  },
+  {
+    "id": 56,
+    "brand": "Pre-Style",
+    "title": "Printed Tired Rip Dress",
+    "price": 677,
+    "originalPrice": 1799,
+    "discountPercentage": 44,
+    "rating": 3.9,
+    "reviews": 4790,
+    "image": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2025/JULY/14/Gx2ue7sZ_9d713fdc5a154f8ea10faa232b38c226.jpg",
+    "category": "womens-wear"
+  },
+  {
+    "id": 56,
+    "brand": "Ketch",
+    "title": "Fit and Feral midi Dress",
+    "price": 459,
+    "originalPrice": 1399,
+    "discountPercentage": 24,
+    "rating": 4.9,
+    "reviews": 4790,
+    "image": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2025/MAY/21/B6WqUDhk_8df4700448154a0ba025f51f352f92c7.jpg",
+    "category": "womens-wear"
+  },
+  {
+    "id": 56,
+    "brand": "Ketch",
+    "title": "Party wear midi Dress",
+    "price": 699,
+    "originalPrice": 1399,
+    "discountPercentage": 64,
+    "rating": 3.9,
+    "reviews": 4790,
+    "image": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/24431586/2023/8/10/b28e1e4d-cf86-40be-a6f0-398a15fbcb701691643267296KETCHBrownAnimalPrintDress1.jpg",
+    "category": "womens-wear"
+  },
+  {
+    "id": 56,
+    "brand": "Ketch",
+    "title": "Short Capigion Dress",
+    "price": 759,
+    "originalPrice": 1399,
+    "discountPercentage": 74,
+    "rating": 2.9,
+    "reviews": 4790,
+    "image": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2025/OCTOBER/4/e3q3kgCW_c00f28c139d04dde914011a6bbb24cf7.jpg",
+    "category": "womens-wear"
   }
 ]
