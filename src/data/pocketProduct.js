@@ -33,7 +33,7 @@ export const RisingStarsData = [
     image:
       "https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2025/4/3/925ace95-64e1-4692-92c0-826bde3f838b1743664826626-image_png2008444094.png",
     categories: "Men",
-    category: "mens-shirts",
+    category: "mens-t-shirt",
   },
   {
     id: 2,
@@ -47,7 +47,7 @@ export const RisingStarsData = [
     image:
       "https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2025/4/3/edb347da-f35b-4d68-91d7-e3b0abba39f01743664908755-cf0de057-98b8-4d14-968d-8b35878100db.png",
     categories: "Women",
-    category: "tops",
+    category: "womens-wear",
   },
   {
     id: 4,
@@ -75,14 +75,14 @@ export const RisingStarsData = [
     image:
       "https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2025/4/3/b3b8e1d5-0b7f-4ac2-988a-e1a2a4b71ef51743664985845-image_png747386139.png",
     categories: "Men",
-    category: "mens-shirts",
+    category: "mens-t-shirt",
   },
   {
     id: 8,
     image:
       "https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2025/4/3/6d3a4cec-35ee-4002-b8c9-115b7979eb4e1743665003385-image_png225290513.png",
     categories: "Men",
-    category: "mens-shirts",
+    category: "mens-half-shirts",
   },
   {
     id: 9,
@@ -96,7 +96,7 @@ export const RisingStarsData = [
     image:
       "https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2025/4/3/a478f3f4-b261-4d42-8b41-ba8e38eed7491743665021245-3d887b9c-1741-4f13-928f-4e052f5b4858.png",
     categories: "Women",
-    category: "tops",
+    category: "womens-dresses",
   },
   {
     id: 11,
@@ -131,7 +131,7 @@ export const RisingStarsData = [
     image:
       "https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2025/4/3/3b8762c2-8c67-46ff-8a4e-f8d0bf6c38121743665152429-image_png282063139.png",
     categories: "Men",
-    category: "mens-shirts",
+    category: "mens-nike",
   },
 ];
 

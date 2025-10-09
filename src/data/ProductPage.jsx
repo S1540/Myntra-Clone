@@ -126,7 +126,7 @@ function ProductPage() {
     );
 
   return (
-    <div className="min-h-screen bg-white">
+    <div className="min-h-screen bg-white py-5">
       {/* Filter Bar */}
       <div className="border-b border-gray-200 bg-white sticky top-14 z-10">
         <div className="max-w-full mx-auto px-4 py-3">
@@ -134,7 +134,7 @@ function ProductPage() {
             <div className="flex items-center space-x-4">
               <span className="text-sm font-bold">FILTERS</span>
               <button
-                className="text-sm text-pink-500 font-semibold"
+                className="text-sm text-pink-500 font-semibold hidden md:block"
                 onClick={() => {
                   setSelectedBrands([]);
                   setSelectedColors([]);
@@ -143,7 +143,7 @@ function ProductPage() {
               >
                 CLEAR ALL
               </button>
-              <div className="flex items-center space-x-2">
+              <div className="md:flex items-center space-x-2 hidden ">
                 <span className="px-3 py-1 bg-white border border-gray-300 rounded-full text-xs flex items-center">
                   ₹{priceRange[0]} - ₹{priceRange[1]}
                   <X className="w-3 h-3 ml-2" />
@@ -257,6 +257,15 @@ function ProductPage() {
                         {product.discount}
                       </div>
                     )}
+                    {/* Hover Buttons - Slide up from bottom */}
+                    <div className="absolute bottom-0 left-0 right-0 translate-y-full group-hover:translate-y-0 transition-transform duration-300 flex items-center justify-center gap-2 p-3">
+                      <button className="bg-pink-500 text-white px-4 py-2 text-sm font-semibold hover:bg-pink-600 transition-colors cursor-pointer w-28 rounded-xs">
+                        Buy Now
+                      </button>
+                      <button className="bg-white text-gray-800 px-4 py-2 text-sm font-semibold hover:bg-gray-100 transition-colors cursor-pointer w-28 rounded-xs">
+                        Wishlist
+                      </button>
+                    </div>
                   </div>
                   <div className="space-y-1">
                     <h3 className="font-bold text-sm">{product.brand}</h3>
