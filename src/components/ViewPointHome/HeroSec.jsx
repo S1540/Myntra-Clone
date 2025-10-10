@@ -8,7 +8,7 @@ import {
   categoriesData,
 } from "../../data/pocketProduct";
 import RisingStars from "./RisingStars";
-import HeroSwiper from "./HeroSwiper";
+// import HeroSwiper from "./HeroSwiper";
 import LuxeGrand from "./LuxeGrand";
 import MedalWrothy from "./MedalWrothy";
 import GrandGloble from "./GrandGloble";

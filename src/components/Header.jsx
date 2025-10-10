@@ -2,7 +2,8 @@ import React, { useState } from "react";
 import { IoSearchOutline } from "react-icons/io5";
 import { FaRegUser, FaRegHeart } from "react-icons/fa";
 import { HiOutlineShoppingBag, HiBars3 } from "react-icons/hi2";
-import { NavLink, useNavigate } from "react-router-dom";
+import { NavLink, useNavigate, Link } from "react-router-dom";
+import { useWishlist } from "../context/WishlistContext";
 
 const Header = () => {
   const [isProfileHovered, setIsProfileHovered] = useState(false);
@@ -22,6 +23,8 @@ const Header = () => {
   const handleLoginClick = () => {
     navigate("/login");
   };
+
+  const { wishlist } = useWishlist();
 
   return (
     <>
@@ -143,9 +146,17 @@ const Header = () => {
                 )}
               </div>
 
-              <div className="flex flex-col items-center">
-                <FaRegHeart className="text-xl text-gray-800 cursor-pointer" />
-                <span className="text-xs hidden md:block">Wishlist</span>
+              <div className=" relative flex flex-col items-center">
+                <Link to={"/wishlist"}>
+                  {" "}
+                  {
+                    <span className="absolute -top-2 right-1 w-4 h-4 rounded-full bg-pink-600 text-white text-xs flex items-center justify-center">
+                      {wishlist.length}{" "}
+                    </span>
+                  }
+                  <FaRegHeart className="text-xl text-gray-800 cursor-pointer ml-2" />
+                  <span className="text-xs hidden md:block">Wishlist</span>{" "}
+                </Link>
               </div>
               <div className="flex flex-col items-center">
                 <HiOutlineShoppingBag className="text-xl text-gray-800 cursor-pointer" />

@@ -10,6 +10,8 @@ import WomenPage from "./components/RoutePages/Women/WomenPage";
 import Login from "./components/Login";
 import KidPage from "./components/RoutePages/Kids/KidPage";
 import ProductPage from "./data/ProductPage";
+import WishlistPage from "./components/RoutePages/Wishlist/WishlistPage";
+import { WishlistProvider } from "./context/WishlistContext";
 
 function AppContent() {
   const location = useLocation();
@@ -18,22 +20,25 @@ function AppContent() {
   return (
     <>
       <ScrollToTop />
-      <Header />
-      <Routes>
-        <Route
-          path="/"
-          element={
-            <>
-              <HeroSec />
-            </>
-          }
-        />
-        <Route path="/men" element={<MenPage />} />
-        <Route path="/women" element={<WomenPage />} />
-        <Route path="/login" element={<Login />} />
-        <Route path="/kids" element={<KidPage />} />
-        <Route path="/product/:category" element={<ProductPage />} />
-      </Routes>
+      <WishlistProvider>
+        <Header />
+        <Routes>
+          <Route
+            path="/"
+            element={
+              <>
+                <HeroSec />
+              </>
+            }
+          />
+          <Route path="/men" element={<MenPage />} />
+          <Route path="/women" element={<WomenPage />} />
+          <Route path="/login" element={<Login />} />
+          <Route path="/kids" element={<KidPage />} />
+          <Route path="/product/:category" element={<ProductPage />} />
+          <Route path="/wishlist" element={<WishlistPage />} />
+        </Routes>
+      </WishlistProvider>
       {!hideFooterOnRoutes.includes(location.pathname) && <Footer />}
     </>
   );

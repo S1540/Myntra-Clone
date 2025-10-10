@@ -1,15 +1,16 @@
 import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { Search, X, Star } from "lucide-react";
+import { useWishlist } from "../context/WishlistContext";
 
 function ProductPage() {
   const { category } = useParams();
-
   const [priceRange, setPriceRange] = useState([100, 901]);
   const [selectedBrands, setSelectedBrands] = useState([]);
   const [selectedColors, setSelectedColors] = useState([]);
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(true);
+  const { wishlist, toggleWishlist, isWishlisted } = useWishlist();
 
   // Placeholder brand and color lists (can modify if API provides)
   const brands = [
@@ -262,8 +263,16 @@ function ProductPage() {
                       <button className="bg-pink-500 text-white px-4 py-2 text-sm font-semibold hover:bg-pink-600 transition-colors cursor-pointer w-28 rounded-xs">
                         Buy Now
                       </button>
-                      <button className="bg-white text-gray-800 px-4 py-2 text-sm font-semibold hover:bg-gray-100 transition-colors cursor-pointer w-28 rounded-xs">
-                        Wishlist
+                      <button
+                        onClick={() => toggleWishlist(product)}
+                        className={` text-gray-800 px-4 py-2 text-sm font-semibold hover:bg-gray-100 
+                          hover:text-black transition-colors cursor-pointer w-28 rounded-xs ${
+                            isWishlisted(product.id)
+                              ? "bg-pink-500 text-white"
+                              : "bg-white"
+                          }`}
+                      >
+                        {isWishlisted(product.id) ? "Remove" : "Wishlist"}
                       </button>
                     </div>
                   </div>

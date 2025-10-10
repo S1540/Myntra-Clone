@@ -207,6 +207,9 @@
   .sticky {
     position: sticky;
   }
+  .-top-2 {
+    top: calc(var(--spacing) * -2);
+  }
   .top-0 {
     top: calc(var(--spacing) * 0);
   }
@@ -215,6 +218,9 @@
   }
   .top-3 {
     top: calc(var(--spacing) * 3);
+  }
+  .top-5 {
+    top: calc(var(--spacing) * 5);
   }
   .top-14 {
     top: calc(var(--spacing) * 14);
@@ -227,6 +233,15 @@
   }
   .right-0 {
     right: calc(var(--spacing) * 0);
+  }
+  .right-1 {
+    right: calc(var(--spacing) * 1);
+  }
+  .right-2 {
+    right: calc(var(--spacing) * 2);
+  }
+  .right-5 {
+    right: calc(var(--spacing) * 5);
   }
   .bottom-0 {
     bottom: calc(var(--spacing) * 0);
@@ -309,6 +324,9 @@
   .hidden {
     display: none;
   }
+  .table {
+    display: table;
+  }
   .h-2 {
     height: calc(var(--spacing) * 2);
   }
@@ -329,6 +347,9 @@
   }
   .h-28 {
     height: calc(var(--spacing) * 28);
+  }
+  .h-40 {
+    height: calc(var(--spacing) * 40);
   }
   .h-52 {
     height: calc(var(--spacing) * 52);
@@ -390,8 +411,14 @@
   .flex-1 {
     flex: 1;
   }
+  .flex-shrink {
+    flex-shrink: 1;
+  }
   .flex-shrink-0 {
     flex-shrink: 0;
+  }
+  .border-collapse {
+    border-collapse: collapse;
   }
   .translate-y-full {
     --tw-translate-y: 100%;
@@ -399,6 +426,9 @@
   }
   .cursor-pointer {
     cursor: pointer;
+  }
+  .resize {
+    resize: both;
   }
   .grid-cols-2 {
     grid-template-columns: repeat(2, minmax(0, 1fr));
@@ -573,6 +603,9 @@
   .bg-pink-500 {
     background-color: #E74694;
   }
+  .bg-pink-600 {
+    background-color: #D61F69;
+  }
   .bg-white {
     background-color: var(--color-white);
   }
@@ -581,6 +614,9 @@
   }
   .object-cover {
     object-fit: cover;
+  }
+  .p-2 {
+    padding: calc(var(--spacing) * 2);
   }
   .p-3 {
     padding: calc(var(--spacing) * 3);
@@ -768,6 +804,9 @@
   .line-through {
     text-decoration-line: line-through;
   }
+  .underline {
+    text-decoration-line: underline;
+  }
   .accent-pink-500 {
     accent-color: #E74694;
   }
@@ -788,6 +827,10 @@
     @supports (color: color-mix(in lab, red, red)) {
       --tw-shadow-color: color-mix(in oklab, #E5E7EB var(--tw-shadow-alpha), transparent);
     }
+  }
+  .outline {
+    outline-style: var(--tw-outline-style);
+    outline-width: 1px;
   }
   .outline-0 {
     outline-style: var(--tw-outline-style);
@@ -848,6 +891,13 @@
     &:hover {
       @media (hover: hover) {
         background-color: #D61F69;
+      }
+    }
+  }
+  .hover\:text-black {
+    &:hover {
+      @media (hover: hover) {
+        color: var(--color-black);
       }
     }
   }
@@ -930,6 +980,11 @@
   .md\:grid-cols-3 {
     @media (width >= 48rem) {
       grid-template-columns: repeat(3, minmax(0, 1fr));
+    }
+  }
+  .md\:grid-cols-4 {
+    @media (width >= 48rem) {
+      grid-template-columns: repeat(4, minmax(0, 1fr));
     }
   }
   .md\:grid-cols-6 {
