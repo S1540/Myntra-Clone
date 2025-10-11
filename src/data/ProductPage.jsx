@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useParams } from "react-router-dom";
 import { Search, X, Star } from "lucide-react";
 import { useWishlist } from "../context/WishlistContext";
+import { Link } from "react-router-dom";
 
 function ProductPage() {
   const { category } = useParams();
@@ -197,7 +198,7 @@ function ProductPage() {
                   <input
                     type="range"
                     min="100"
-                    max="901"
+                    max="999"
                     value={priceRange[1]}
                     onChange={(e) =>
                       setPriceRange([priceRange[0], parseInt(e.target.value)])
@@ -248,11 +249,13 @@ function ProductPage() {
               {filteredProducts.map((product) => (
                 <div key={product.id} className="group cursor-pointer">
                   <div className="relative overflow-hidden bg-gray-100 mb-3">
-                    <img
-                      src={product.image}
-                      alt={product.name}
-                      className="w-full h-80 object-cover group-hover:scale-105 transition-transform duration-300"
-                    />
+                    <Link to={`/productInfo/${product.id}`}>
+                      <img
+                        src={product.image}
+                        alt={product.name}
+                        className="w-full h-80 object-cover group-hover:scale-105 transition-transform duration-300"
+                      />
+                    </Link>
                     {product.discount && (
                       <div className="absolute top-2 left-2 bg-white px-2 py-1 text-xs font-semibold">
                         {product.discount}

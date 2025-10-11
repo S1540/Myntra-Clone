@@ -431,7 +431,13 @@
     "rating": 4.1,
     "reviews": 4790,
     "image": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2025/SEPTEMBER/24/142lOxZt_2fdf3ae85f2e4ce7abf91ab15df460f9.jpg",
-    "category": "womens-dresses"
+    "category": "womens-dresses",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/30898927/2024/10/26/f5a2c974-fcea-47ea-bfef-c854eb0eb62b1729915395518-TANISHA-Floral-Printed-Pure-Cotton-Tunic-With-Trousers-61117-1.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/30898927/2024/10/26/b78811d8-8705-4c23-b76a-4695cb9ea4601729915395341-TANISHA-Floral-Printed-Pure-Cotton-Tunic-With-Trousers-61117-6.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/30898927/2024/10/26/1c6a399a-6e72-49a9-a721-9dd064033c1f1729915395408-TANISHA-Floral-Printed-Pure-Cotton-Tunic-With-Trousers-61117-4.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/30898927/2024/10/26/afe684aa-b287-4e10-b824-d7856db943d91729915395481-TANISHA-Floral-Printed-Pure-Cotton-Tunic-With-Trousers-61117-2.jpg"
+    ]
   },
   {
     "id": 37,
@@ -732,6 +738,54 @@
     "rating": 2.9,
     "reviews": 4790,
     "image": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2025/OCTOBER/4/e3q3kgCW_c00f28c139d04dde914011a6bbb24cf7.jpg",
+    "category": "womens-wear"
+  },
+  {
+    "id": 57,
+    "brand": "Moda Rapido",
+    "title": "Maxi Party Wear Dress",
+    "price": 559,
+    "originalPrice": 4399,
+    "discountPercentage": 54,
+    "rating": 4.9,
+    "reviews": 4790,
+    "image": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2025/JUNE/14/r55ajv1E_245d15cbb22b4c0dadcb6bdf6b3550dc.jpg",
+    "category": "womens-wear"
+  },
+  {
+    "id": 58,
+    "brand": "Light Daisy",
+    "title": "Embroidered Straight Kurta Set",
+    "price": 349,
+    "originalPrice": 2999,
+    "discountPercentage": 54,
+    "rating": 3.5,
+    "reviews": 4790,
+    "image": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2025/AUGUST/14/O6Zuqp2u_84c83d14849b48a0863d7729b298420c.jpg",
+    "category": "womens-wear"
+  },
+  {
+    "id": 59,
+    "brand": "Mizaz",
+    "title": "Flora pure cotton Kurta Set",
+    "price": 709,
+    "originalPrice": 2999,
+    "discountPercentage": 56,
+    "rating": 4.5,
+    "reviews": 4790,
+    "image": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2025/JULY/14/k1xVelVX_e4ded28c722845adb716c4136dc0955d.jpg",
+    "category": "womens-wear"
+  },
+  {
+    "id": 60,
+    "brand": "SIPEAK WEAR INDIA",
+    "title": "Vicose Rayon Kurta Set",
+    "price": 409,
+    "originalPrice": 2499,
+    "discountPercentage": 54,
+    "rating": 4.2,
+    "reviews": 4790,
+    "image": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2024/AUGUST/2/AUiHLLhL_2d499fddfb2f48bea8b24aaa47d8ecf2.jpg",
     "category": "womens-wear"
   }
 ]

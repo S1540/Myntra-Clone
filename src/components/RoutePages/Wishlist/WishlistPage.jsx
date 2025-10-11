@@ -1,5 +1,6 @@
 import React from "react";
 import { useWishlist } from "../../../context/WishlistContext";
+import { X } from "lucide-react";
 import { Link } from "react-router-dom";
 
 function WishlistPage() {
@@ -102,13 +103,19 @@ function WishlistPage() {
         wishlist.map((item) => (
           <div
             key={item.id}
-            className="border border-gray-200 rounded-xs shadow-sm hover:shadow-lg transition-shadow duration-300 w-48 md:w-56 h-auto bg-white"
+            className="border border-gray-200 rounded-lg shadow-sm hover:shadow-lg transition-shadow duration-300 w-48 md:w-56 bg-white relative overflow-hidden"
           >
+            {/* Cross Delete Button */}
+            <div className="absolute top-2 right-2 z-10 cursor-pointer bg-white/80 hover:bg-red-500 hover:text-white text-gray-700 rounded-full px-1 py-0.5 transition-all duration-300 shadow w-7 h-7 place-items-center">
+              <p className="text-xl leading-none">✕</p>
+            </div>
+
+            {/* Image Section */}
             <div className="relative">
               <img
                 src={item.image}
                 alt={item.name}
-                className="w-full h-48 md:h-56 object-cover"
+                className="w-full h-48 md:h-56 object-cover rounded-t-lg"
               />
               {item.discount && (
                 <span className="absolute top-2 left-2 bg-pink-500 text-white text-xs font-bold px-2 py-1 rounded">
@@ -116,6 +123,8 @@ function WishlistPage() {
                 </span>
               )}
             </div>
+
+            {/* Details Section */}
             <div className="p-3 py-4 space-y-3">
               <h3 className="text-sm md:text-base font-semibold text-gray-800 truncate">
                 {item.name}

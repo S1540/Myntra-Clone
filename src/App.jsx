@@ -12,6 +12,7 @@ import KidPage from "./components/RoutePages/Kids/KidPage";
 import ProductPage from "./data/ProductPage";
 import WishlistPage from "./components/RoutePages/Wishlist/WishlistPage";
 import { WishlistProvider } from "./context/WishlistContext";
+import ProductInfo from "./data/ProductInfo";
 
 function AppContent() {
   const location = useLocation();
@@ -36,6 +37,7 @@ function AppContent() {
           <Route path="/login" element={<Login />} />
           <Route path="/kids" element={<KidPage />} />
           <Route path="/product/:category" element={<ProductPage />} />
+          <Route path="/productInfo/:id" element={<ProductInfo />} />
           <Route path="/wishlist" element={<WishlistPage />} />
         </Routes>
       </WishlistProvider>
@@ -60,7 +62,9 @@ function App() {
         <MyntraLoader />
       ) : (
         <BrowserRouter>
-          <AppContent />
+          <WishlistProvider>
+            <AppContent />
+          </WishlistProvider>
         </BrowserRouter>
       )}
     </>
