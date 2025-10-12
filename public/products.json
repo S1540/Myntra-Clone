@@ -700,21 +700,33 @@
     "discountPercentage": 73,
     "rating": 4.2,
     "reviews": 4790,
-    "image": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/23476988/2023/8/11/f28b688e-7257-4cf1-b029-4caaefb23ef21691730788319-Mast--Harbour-Women-Sweaters-8081691730787947-1.jpg",
-    "category": "womens-dresses"
+    "image": "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/34474162/2025/6/26/a880805f-1150-48b0-b45e-bb5f6be498911750930913768-Anouk-Women-Floral-Printed-Cotton-Kurta-with-Pyjama--Dupatta-1.jpg",
+    "category": "womens-dresses",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/34474162/2025/6/26/a880805f-1150-48b0-b45e-bb5f6be498911750930913768-Anouk-Women-Floral-Printed-Cotton-Kurta-with-Pyjama--Dupatta-1.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/34474162/2025/6/26/79de3212-9a26-4df4-a37a-1880216c8ee41750930913721-Anouk-Women-Floral-Printed-Cotton-Kurta-with-Pyjama--Dupatta-2.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/34474162/2025/6/26/5cade5da-7224-4858-9079-c32862b786be1750930913673-Anouk-Women-Floral-Printed-Cotton-Kurta-with-Pyjama--Dupatta-3.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/34474162/2025/6/26/97f2ccb1-68e7-444f-a4b3-730dacaff2591750930913626-Anouk-Women-Floral-Printed-Cotton-Kurta-with-Pyjama--Dupatta-4.jpg"
+    ]
   },
 
   {
     "id": 52,
     "brand": "SANSKRUTIHOMES",
-    "title": "Women Pure Cotten Top",
+    "title": "Women Pure Cotten Set",
     "price": 770,
     "originalPrice": 2299,
     "discountPercentage": 73,
     "rating": 3.9,
     "reviews": 4790,
-    "image": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2024/OCTOBER/2/rOWUMpFN_153ba54ffb5a4b9ab19183eaabc84741.jpg",
-    "category": "womens-wear"
+    "image": "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/AUGUST/29/qvYc39yL_f651edeaf9f540b1b75461fdcd46df64.jpg",
+    "category": "womens-wear",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/AUGUST/29/qvYc39yL_f651edeaf9f540b1b75461fdcd46df64.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/AUGUST/29/oL9us22s_70cf34476e4e4c72838e7ec7e23be5cd.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/AUGUST/29/vlz0AP56_1408e05ee3e04341b23a3c74d7fbcf75.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/AUGUST/29/ioQNFxXO_e98d06c913284f20b2fa4d069981fe38.jpg"
+    ]
   },
   {
     "id": 53,
@@ -725,8 +737,14 @@
     "discountPercentage": 73,
     "rating": 4.1,
     "reviews": 4790,
-    "image": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2025/SEPTEMBER/26/2b8xGJGE_27aa7758b0df409b9edcc649cef33884.jpg",
-    "category": "womens-wear"
+    "image": "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/21457572/2023/1/7/75f3c6de-e1c8-4831-aee5-eb3f699d4f741673091498078ZigoWomenBlackFlaredSleevesThreadWorkKurta1.jpg",
+    "category": "womens-wear",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/21457572/2023/1/7/75f3c6de-e1c8-4831-aee5-eb3f699d4f741673091498078ZigoWomenBlackFlaredSleevesThreadWorkKurta1.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/21457572/2023/1/7/49ceffff-4286-4407-a1c1-9169c30a36c31673091498108ZigoWomenBlackFlaredSleevesThreadWorkKurta2.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/21457572/2023/1/7/01eaca81-8b33-4a49-9656-e680a6f97e4b1673091498137ZigoWomenBlackFlaredSleevesThreadWorkKurta3.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/21457572/2023/1/7/d349cf9f-2760-4df2-a888-3374464f9fcf1673091498061ZigoWomenBlackFlaredSleevesThreadWorkKurta5.jpg"
+    ]
   },
   {
     "id": 54,
@@ -737,8 +755,15 @@
     "discountPercentage": 54,
     "rating": 3.1,
     "reviews": 4790,
-    "image": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/33272270/2025/3/25/6ddaf705-8a5c-42f2-883e-2749b85351411742903892766-Yufta-Women-Ethnic-Motifs-Printed-Pleated-Pure-Cotton-Kurta--1.jpg",
-    "category": "womens-wear"
+    "image": "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/33272270/2025/3/25/6ddaf705-8a5c-42f2-883e-2749b85351411742903892766-Yufta-Women-Ethnic-Motifs-Printed-Pleated-Pure-Cotton-Kurta--1.jpg",
+    "category": "womens-wear",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/33272270/2025/3/25/6ddaf705-8a5c-42f2-883e-2749b85351411742903892766-Yufta-Women-Ethnic-Motifs-Printed-Pleated-Pure-Cotton-Kurta--1.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/33272270/2025/3/25/e5ec6116-4a5e-42ca-bb98-430a5f6aad461742903892742-Yufta-Women-Ethnic-Motifs-Printed-Pleated-Pure-Cotton-Kurta--2.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/33272270/2025/3/25/a37f080a-f479-4fb3-bc8b-3f83236fab021742903892719-Yufta-Women-Ethnic-Motifs-Printed-Pleated-Pure-Cotton-Kurta--3.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/33272270/2025/3/25/7591acba-bbbe-4aa6-a1e4-2d913e0407411742903892697-Yufta-Women-Ethnic-Motifs-Printed-Pleated-Pure-Cotton-Kurta--4.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/33272270/2025/3/25/444bf5c4-8e09-4cf7-80cc-fb8ca9393a1d1742903892673-Yufta-Women-Ethnic-Motifs-Printed-Pleated-Pure-Cotton-Kurta--5.jpg"
+    ]
   },
   {
     "id": 55,
@@ -749,8 +774,14 @@
     "discountPercentage": 54,
     "rating": 4.1,
     "reviews": 4790,
-    "image": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2025/SEPTEMBER/26/C4Oiu8iQ_99f55c56b33d4bfd919ee8a159abd798.jpg",
-    "category": "womens-wear"
+    "image": "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/29906764/2024/6/6/c8294fc7-0d97-46f5-9d8b-47d835b499a21717658928980FloralPrintedPanelledPureCottonAnarkaliKurtaWithTrousersDupa2.jpg",
+    "category": "womens-wear",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/29906764/2024/6/6/c8294fc7-0d97-46f5-9d8b-47d835b499a21717658928980FloralPrintedPanelledPureCottonAnarkaliKurtaWithTrousersDupa2.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/29906764/2024/6/6/36a61304-1dfc-4dc7-b9b4-1d0e818d09691717658928961FloralPrintedPanelledPureCottonAnarkaliKurtaWithTrousersDupa1.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/29906764/2024/6/6/b3bc10f7-5ccf-4c42-9d4a-a61a238288dd1717658928933FloralPrintedPanelledPureCottonAnarkaliKurtaWithTrousersDupa3.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/29906764/2024/6/6/36521108-ec6e-4252-a075-8b098f3bcdca1717658928989FloralPrintedPanelledPureCottonAnarkaliKurtaWithTrousersDupa4.jpg"
+    ]
   },
   {
     "id": 56,
@@ -761,8 +792,14 @@
     "discountPercentage": 24,
     "rating": 4.9,
     "reviews": 4790,
-    "image": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2024/DECEMBER/28/jTk7tSVf_8aec86c32fd442c792ec125dc59cd486.jpg",
-    "category": "womens-wear"
+    "image": "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/JUNE/14/zLai4tht_405e4966319e4574a41c1c4ebb201f4a.jpg",
+    "category": "womens-wear",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/JUNE/14/zLai4tht_405e4966319e4574a41c1c4ebb201f4a.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/JUNE/14/DGUvTZzd_352243b9eeb846f28f7b9cd68430118d.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/JUNE/14/ABULcDW0_ed3bfcc71c44457bb4043fe5558998ba.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/JUNE/14/F6PI0HCX_5875024618ae4a13ad5371f2f02a3a5b.jpg"
+    ]
   },
   {
     "id": 57,
@@ -773,11 +810,17 @@
     "discountPercentage": 34,
     "rating": 4.9,
     "reviews": 4790,
-    "image": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/29866561/2024/5/31/f926d6a9-6d32-423e-8e3e-ccc51e7e8f4d1717132198945KETCHEthnicMotifsPrintPuffSleeveSheathDress1.jpg",
-    "category": "womens-wear"
+    "image": "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/21288160/2022/12/23/d7006a1f-1041-4476-aa74-790e4ac3544a1671789841027CloviaBlueFloralCrepeDress1.jpg",
+    "category": "womens-wear",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/21288160/2022/12/23/d7006a1f-1041-4476-aa74-790e4ac3544a1671789841027CloviaBlueFloralCrepeDress1.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/21288160/2022/12/23/77c53f4c-effe-46aa-adb4-c28e229b66981671789840997CloviaBlueFloralCrepeDress2.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/21288160/2022/12/23/82d3d6a5-e490-42a8-8555-f775d24457981671789841008CloviaBlueFloralCrepeDress3.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/21288160/2022/12/23/2ece3ebe-d343-4816-ac03-45d496eeb6421671789841051CloviaBlueFloralCrepeDress6.jpg"
+    ]
   },
   {
-    "id": 56,
+    "id": 58,
     "brand": "Pre-Style",
     "title": "Printed Tired Rip Dress",
     "price": 677,
@@ -785,11 +828,17 @@
     "discountPercentage": 44,
     "rating": 3.9,
     "reviews": 4790,
-    "image": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2025/JULY/14/Gx2ue7sZ_9d713fdc5a154f8ea10faa232b38c226.jpg",
-    "category": "womens-wear"
+    "image": "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/AUGUST/26/wQC9zgjJ_00e60eb40f0c40fdbc3f714890f79388.jpg",
+    "category": "womens-wear",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/AUGUST/26/wQC9zgjJ_00e60eb40f0c40fdbc3f714890f79388.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/AUGUST/26/SiZSTx4z_93f2ddb855fc4a13848c475ea474d458.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/AUGUST/26/wWADXLP9_f9f88814fcc9423fbeb02c8c72d4b92a.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/AUGUST/26/w6yYFEFf_e1337df85ae54a79b480851cdc3c96ae.jpg"
+    ]
   },
   {
-    "id": 56,
+    "id": 59,
     "brand": "Ketch",
     "title": "Fit and Feral midi Dress",
     "price": 459,
@@ -797,11 +846,16 @@
     "discountPercentage": 24,
     "rating": 4.9,
     "reviews": 4790,
-    "image": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2025/MAY/21/B6WqUDhk_8df4700448154a0ba025f51f352f92c7.jpg",
-    "category": "womens-wear"
+    "image": "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/28337784/2025/8/5/c7687eaa-4d32-4398-b3e0-23a88ef091101754370088822-MomToBe-Floral-Print-Maternity-Fit--Flare-Dress-212175437008-1.jpg",
+    "category": "womens-wear",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/28337784/2025/8/5/c7687eaa-4d32-4398-b3e0-23a88ef091101754370088822-MomToBe-Floral-Print-Maternity-Fit--Flare-Dress-212175437008-1.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/28337784/2025/8/5/308ed0da-f0b0-453f-b459-8bb720a7b64e1754370205951-MomToBe-Floral-Print-Maternity-Fit--Flare-Dress-539175437020-2.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/28337784/2025/8/5/c7923a51-b20b-4d43-baab-51cdf25391171754370205923-MomToBe-Floral-Print-Maternity-Fit--Flare-Dress-539175437020-3.jpg"
+    ]
   },
   {
-    "id": 56,
+    "id": 60,
     "brand": "Ketch",
     "title": "Party wear midi Dress",
     "price": 699,
@@ -809,11 +863,17 @@
     "discountPercentage": 64,
     "rating": 3.9,
     "reviews": 4790,
-    "image": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/24431586/2023/8/10/b28e1e4d-cf86-40be-a6f0-398a15fbcb701691643267296KETCHBrownAnimalPrintDress1.jpg",
-    "category": "womens-wear"
+    "image": "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/JUNE/26/tL8TfuOg_d5da5228383c483b8deed4d7c7ea535f.jpg",
+    "category": "womens-wear",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/JUNE/26/tL8TfuOg_d5da5228383c483b8deed4d7c7ea535f.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/JUNE/26/3RGmcz7J_719fe26761cb4707bba21a3e884dbebc.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/JUNE/26/iGRw5W7j_e44ca0f44dea41fdb5262f15e46a7620.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/JUNE/26/f0MmwsfJ_a52bc063b4c946d2848d6d2c1ba220db.jpg"
+    ]
   },
   {
-    "id": 56,
+    "id": 61,
     "brand": "Ketch",
     "title": "Short Capigion Dress",
     "price": 759,
@@ -821,11 +881,17 @@
     "discountPercentage": 74,
     "rating": 2.9,
     "reviews": 4790,
-    "image": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2025/OCTOBER/4/e3q3kgCW_c00f28c139d04dde914011a6bbb24cf7.jpg",
-    "category": "womens-wear"
+    "image": "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/AUGUST/28/Dz2y9h4S_94d9e08602534070b4a9d0742cb34974.jpg",
+    "category": "womens-wear",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/AUGUST/28/Dz2y9h4S_94d9e08602534070b4a9d0742cb34974.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/AUGUST/28/MymUC8bD_5aeab31559bc4912985198c842da5793.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/AUGUST/28/qe6ZYQzw_be2da9828f624d888757338f33669772.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/AUGUST/28/Dz2y9h4S_94d9e08602534070b4a9d0742cb34974.jpg"
+    ]
   },
   {
-    "id": 57,
+    "id": 62,
     "brand": "Moda Rapido",
     "title": "Maxi Party Wear Dress",
     "price": 559,
@@ -833,11 +899,17 @@
     "discountPercentage": 54,
     "rating": 4.9,
     "reviews": 4790,
-    "image": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2025/JUNE/14/r55ajv1E_245d15cbb22b4c0dadcb6bdf6b3550dc.jpg",
-    "category": "womens-wear"
+    "image": "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/MARCH/17/vTa4ZWI7_524f721541f5499893c9f09b971d3f9b.jpg",
+    "category": "womens-wear",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/MARCH/17/vTa4ZWI7_524f721541f5499893c9f09b971d3f9b.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/MARCH/17/6aC73cN0_8bd9b85aae8c411faef47f7815909d13.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/MARCH/17/Aqcz2Fgi_89a6941922844ebf807e9a2ba82e6872.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/MARCH/17/SyxQKHgC_5a1a7bf1642f480697240465d00b7cc0.jpg"
+    ]
   },
   {
-    "id": 58,
+    "id": 63,
     "brand": "Light Daisy",
     "title": "Embroidered Straight Kurta Set",
     "price": 349,
@@ -849,7 +921,7 @@
     "category": "womens-wear"
   },
   {
-    "id": 59,
+    "id": 64,
     "brand": "Mizaz",
     "title": "Flora pure cotton Kurta Set",
     "price": 709,
@@ -861,7 +933,7 @@
     "category": "womens-wear"
   },
   {
-    "id": 60,
+    "id": 65,
     "brand": "SIPEAK WEAR INDIA",
     "title": "Vicose Rayon Kurta Set",
     "price": 409,
