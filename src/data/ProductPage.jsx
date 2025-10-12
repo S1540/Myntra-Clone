@@ -1,8 +1,7 @@
 import React, { useState, useEffect } from "react";
-import { useParams } from "react-router-dom";
+import { useParams, Link } from "react-router-dom";
 import { Search, X, Star } from "lucide-react";
 import { useWishlist } from "../context/WishlistContext";
-import { Link } from "react-router-dom";
 
 function ProductPage() {
   const { category } = useParams();
@@ -13,7 +12,6 @@ function ProductPage() {
   const [loading, setLoading] = useState(true);
   const { wishlist, toggleWishlist, isWishlisted } = useWishlist();
 
-  // Placeholder brand and color lists (can modify if API provides)
   const brands = [
     { name: "Roadster" },
     { name: "Killer" },
@@ -44,13 +42,12 @@ function ProductPage() {
     );
   };
 
-  // Fetch products dynamically from API
+  // ✅ Fetch products
   useEffect(() => {
     setLoading(true);
-    fetch("../../public/products.json")
+    fetch("/products.json")
       .then((res) => res.json())
       .then((res) => {
-        // Filter products by selected category (from useParams)
         const filtered = res.filter((item) => item.category === category);
 
         const formatted = filtered.map((p) => ({
@@ -73,16 +70,19 @@ function ProductPage() {
       .catch(() => setLoading(false));
   }, [category]);
 
-  // Filter products based on brand, color, and price range
+  // ✅ Apply filters
   const filteredProducts = products.filter((p) => {
     const brandMatch =
-      selectedBrands.length === 0 || selectedBrands.includes(p.brand);
+      selectedBrands.length === 0 ||
+      selectedBrands.some((b) => b.toLowerCase() === p.brand.toLowerCase());
+
     const priceMatch = p.price >= priceRange[0] && p.price <= priceRange[1];
-    // Color filtering can be integrated if API provides color info
+
     return brandMatch && priceMatch;
   });
 
   if (loading) return <div className="p-4 text-center">Loading...</div>;
+
   if (!filteredProducts.length)
     return (
       <div className="bg-pink-50 min-h-screen flex items-center justify-center p-5">
@@ -102,7 +102,7 @@ function ProductPage() {
           </p>
           <div className="flex gap-4 justify-center flex-wrap mb-10">
             <button
-              onclick="location.reload()"
+              onClick={() => location.reload()}
               className="bg-pink-500 text-white px-8 py-3 rounded font-semibold text-sm uppercase tracking-wide hover:bg-pink-600 transition"
             >
               Try Again
@@ -113,15 +113,6 @@ function ProductPage() {
             >
               Go to Homepage
             </a>
-          </div>
-          <div className="pt-8 border-t border-gray-100 text-gray-400 text-sm">
-            <p>Need help? Contact our support team</p>
-            <p className="mt-2 font-semibold text-gray-600">
-              support@myntra.com
-            </p>
-            <div className="mt-4 font-mono text-xs text-gray-300">
-              Error ID: 500-INT-SERVER-ERROR
-            </div>
           </div>
         </div>
       </div>
@@ -136,7 +127,7 @@ function ProductPage() {
             <div className="flex items-center space-x-4">
               <span className="text-sm font-bold">FILTERS</span>
               <button
-                className="text-sm text-pink-500 font-semibold hidden md:block"
+                className="text-sm text-pink-500 font-semibold hidden md:block cursor-pointer"
                 onClick={() => {
                   setSelectedBrands([]);
                   setSelectedColors([]);
@@ -145,12 +136,6 @@ function ProductPage() {
               >
                 CLEAR ALL
               </button>
-              <div className="md:flex items-center space-x-2 hidden ">
-                <span className="px-3 py-1 bg-white border border-gray-300 rounded-full text-xs flex items-center">
-                  ₹{priceRange[0]} - ₹{priceRange[1]}
-                  <X className="w-3 h-3 ml-2" />
-                </span>
-              </div>
             </div>
             <div className="text-sm">
               Sort by: <span className="font-semibold">Recommended</span>
@@ -194,20 +179,18 @@ function ProductPage() {
               {/* Price Filter */}
               <div className="border-b border-gray-200 pb-4">
                 <h3 className="font-bold text-sm mb-4">PRICE</h3>
-                <div className="space-y-4">
-                  <input
-                    type="range"
-                    min="100"
-                    max="999"
-                    value={priceRange[1]}
-                    onChange={(e) =>
-                      setPriceRange([priceRange[0], parseInt(e.target.value)])
-                    }
-                    className="w-full"
-                  />
-                  <div className="text-xs text-gray-600">
-                    ₹{priceRange[0]} - ₹{priceRange[1]}
-                  </div>
+                <input
+                  type="range"
+                  min="100"
+                  max="999"
+                  value={priceRange[1]}
+                  onChange={(e) =>
+                    setPriceRange([priceRange[0], parseInt(e.target.value)])
+                  }
+                  className="w-full"
+                />
+                <div className="text-xs text-gray-600 mt-1">
+                  ₹{priceRange[0]} - ₹{priceRange[1]}
                 </div>
               </div>
 
@@ -256,12 +239,13 @@ function ProductPage() {
                         className="w-full h-80 object-cover group-hover:scale-105 transition-transform duration-300"
                       />
                     </Link>
+
                     {product.discount && (
                       <div className="absolute top-2 left-2 bg-white px-2 py-1 text-xs font-semibold">
                         {product.discount}
                       </div>
                     )}
-                    {/* Hover Buttons - Slide up from bottom */}
+
                     <div className="absolute bottom-0 left-0 right-0 translate-y-full group-hover:translate-y-0 transition-transform duration-300 flex items-center justify-center gap-2 p-3">
                       <button className="bg-pink-500 text-white px-4 py-2 text-sm font-semibold hover:bg-pink-600 transition-colors cursor-pointer w-28 rounded-xs">
                         Buy Now
@@ -279,6 +263,7 @@ function ProductPage() {
                       </button>
                     </div>
                   </div>
+
                   <div className="space-y-1">
                     <h3 className="font-bold text-sm">{product.brand}</h3>
                     <p className="text-sm text-gray-600 truncate">
