@@ -8,20 +8,33 @@
     "discountPercentage": 44.7,
     "rating": 3.7,
     "reviews": 3352,
-    "image": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/29265888/2024/4/30/fe4c28bd-d5fb-467d-9d5e-26e3be3f7b671714470947075Shirts1.jpg",
-    "category": "mens-shirts"
+    "image": "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14849894/2021/12/1/317ece7c-4c07-4fe3-914f-cd91e18a7db61638339791943-Roadster-Men-Shirts-3291638339791184-1.jpg",
+    "category": "mens-shirts",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14849894/2021/12/1/317ece7c-4c07-4fe3-914f-cd91e18a7db61638339791943-Roadster-Men-Shirts-3291638339791184-1.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14849894/2021/12/1/6166ce22-312e-4ac7-90df-2a4b1cd0d1b51638339791935-Roadster-Men-Shirts-3291638339791184-2.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14849894/2021/12/1/bc5aac32-d5cc-4917-a43e-e32114fead391638339791927-Roadster-Men-Shirts-3291638339791184-3.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14849894/2021/12/1/b069d78a-81dc-40c4-b458-6ba5fc6605b51638339791917-Roadster-Men-Shirts-3291638339791184-4.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/14849894/2021/12/1/c6a07f23-0557-4a3a-a28d-7a36a316a4101638339791897-Roadster-Men-Shirts-3291638339791184-6.jpg"
+    ]
   },
   {
     "id": 2,
-    "brand": "Adidass",
-    "title": "Adidas Mens Shirts 10",
+    "brand": "RoadSter",
+    "title": "Roadster Mens Shirts 10",
     "price": 599,
     "originalPrice": 1021,
     "discountPercentage": 40.2,
     "rating": 4.7,
     "reviews": 4352,
-    "image": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/27206334/2024/2/1/abafcc88-2c1c-4079-8a8a-76ed471469901706789384854-Mast--Harbour-Men-Shirts-6561706789384406-1.jpg",
-    "category": "mens-shirts"
+    "image": "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/11326166/2020/3/13/0bd3aa2a-ea69-4faa-8c97-e0e81046392b1584092903688-Roadster-Men-Shirts-451584092901753-1.jpg",
+    "category": "mens-shirts",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/11326166/2020/3/13/0bd3aa2a-ea69-4faa-8c97-e0e81046392b1584092903688-Roadster-Men-Shirts-451584092901753-1.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/11326166/2020/3/13/1803be33-c8ce-43ef-b6dd-d9564f9a02791584092903640-Roadster-Men-Shirts-451584092901753-2.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/11326166/2020/3/13/0cf0e8be-b923-4557-a2f9-5895a743a5e51584092903555-Roadster-Men-Shirts-451584092901753-4.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/11326166/2020/3/13/6c4f88f6-aa37-47a0-9ff2-c8f5ba3b37da1584092903515-Roadster-Men-Shirts-451584092901753-5.jpg"
+    ]
   },
   {
     "id": 3,
@@ -32,20 +45,32 @@
     "discountPercentage": 54.2,
     "rating": 4.6,
     "reviews": 4852,
-    "image": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/25756802/2023/11/28/8e7e0c3c-9b89-4d94-824e-1f73bd42ddca1701172254565-Levis-Slim-Fit-Checked-Pure-Cotton-Casual-Shirt-491170117225-1.jpg",
-    "category": "mens-shirts"
+    "image": "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/32257154/2025/3/3/cb1fcadd-ddd3-441a-8375-51c2b7a29f201741000521723-Mens-Striped-Slim-Fit-Shirt-1991741000521277-1.jpg",
+    "category": "mens-shirts",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/32257154/2025/3/3/cb1fcadd-ddd3-441a-8375-51c2b7a29f201741000521723-Mens-Striped-Slim-Fit-Shirt-1991741000521277-1.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/32257154/2025/3/3/c0e090ed-9278-4747-adaf-d48dd03850381741000521709-Mens-Striped-Slim-Fit-Shirt-1991741000521277-2.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/32257154/2025/3/3/6e356f2e-fb20-47e7-b0ce-b806ede476a11741000521682-Mens-Striped-Slim-Fit-Shirt-1991741000521277-4.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/32257154/2025/3/3/bdbd3e44-c89d-4813-8521-ab442d35649d1741000521667-Mens-Striped-Slim-Fit-Shirt-1991741000521277-5.jpg"
+    ]
   },
   {
     "id": 4,
-    "brand": "mast&harbour",
+    "brand": "Mast & harbour",
     "title": "Regular Mens Shirts 10",
     "price": 789,
     "originalPrice": 2021,
     "discountPercentage": 54.2,
     "rating": 3.6,
     "reviews": 3652,
-    "image": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/12311838/2020/10/16/7c6cda74-65b5-49a0-949d-f0d014fe18331602849045599-Mast--Harbour-Men-Shirts-9441602849041579-1.jpg",
-    "category": "mens-shirts"
+    "image": "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13257358/2021/4/7/673c4314-09ca-48e0-bb17-fe72001d39611617798785223-Mast--Harbour-Men-Shirts-3921617798784273-1.jpg",
+    "category": "mens-shirts",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13257358/2021/4/7/673c4314-09ca-48e0-bb17-fe72001d39611617798785223-Mast--Harbour-Men-Shirts-3921617798784273-1.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13257358/2021/4/7/fc8f7146-b116-4fb8-8aaa-bd0f77e607d31617798785200-Mast--Harbour-Men-Shirts-3921617798784273-2.jpgv",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13257358/2021/4/7/7e80e576-9bf4-457d-8e59-c75353a28c881617798785160-Mast--Harbour-Men-Shirts-3921617798784273-4.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/13257358/2021/4/7/34994bc4-44ef-4d87-9efc-fec5e8b5d36d1617798785117-Mast--Harbour-Men-Shirts-3921617798784273-6.jpg"
+    ]
   },
   {
     "id": 5,
@@ -56,8 +81,14 @@
     "discountPercentage": 34.2,
     "rating": 4.9,
     "reviews": 4982,
-    "image": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/13467766/2024/6/20/dd4853b8-8229-4064-98f3-be20885730bc1718883637184TheIndianGarageCoMenNavyBlueSlimFitGinghamChecksOpaqueCotton1.jpg",
-    "category": "mens-shirts"
+    "image": "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/8357455/2019/1/10/6fbbab8c-5090-4816-ab9d-8ed691d8b3771547100406552-HERENOW-Men-Beige--Navy-Blue-Regular-Fit-Checked-Casual-Shir-1.jpg",
+    "category": "mens-shirts",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/8357455/2019/1/10/6fbbab8c-5090-4816-ab9d-8ed691d8b3771547100406552-HERENOW-Men-Beige--Navy-Blue-Regular-Fit-Checked-Casual-Shir-1.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/8357455/2019/1/10/f79c507b-c894-4845-b660-68b013c8d1781547100406541-HERENOW-Men-Beige--Navy-Blue-Regular-Fit-Checked-Casual-Shir-2.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/8357455/2019/1/10/e167ee93-fac4-4629-a7ac-0f45bb0b02511547100406514-HERENOW-Men-Beige--Navy-Blue-Regular-Fit-Checked-Casual-Shir-3.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/8357455/2019/1/10/848dc9af-cfff-4c68-9466-986d5737bfb21547100406501-HERENOW-Men-Beige--Navy-Blue-Regular-Fit-Checked-Casual-Shir-4.jpg"
+    ]
   },
   {
     "id": 6,
@@ -92,8 +123,14 @@
     "discountPercentage": 46.2,
     "rating": 4.5,
     "reviews": 4582,
-    "image": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/14849842/2021/11/9/2f42a6fd-1949-4363-be54-d5dabaf685c11636443926203ShortsWROGNMenShortsWROGNMenKurtaSetsallaboutyouWomenKurtaSe1.jpg",
-    "category": "mens-shirts"
+    "image": "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12056188/2020/7/29/18500d8b-d636-4ff6-bca4-dd76ec94e47b1596015097579-Roadster-Men-Shirts-7981596015095905-1.jpg",
+    "category": "mens-shirts",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12056188/2020/7/29/18500d8b-d636-4ff6-bca4-dd76ec94e47b1596015097579-Roadster-Men-Shirts-7981596015095905-1.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12056188/2020/7/29/5b6307aa-a165-4a30-8c7b-1889e6db538b1596015097517-Roadster-Men-Shirts-7981596015095905-2.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12056188/2020/7/29/cb930882-9b4a-487a-9cf1-40a274d887501596015097417-Roadster-Men-Shirts-7981596015095905-4.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/12056188/2020/7/29/fe9de8d8-3eff-4ba1-9f87-ba51f26c92cb1596015097370-Roadster-Men-Shirts-7981596015095905-5.jpg"
+    ]
   },
   {
     "id": 9,
@@ -128,8 +165,14 @@
     "discountPercentage": 46.2,
     "rating": 3.8,
     "reviews": 3882,
-    "image": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/11262530/2020/1/9/729b1a8d-ea74-4f8a-94dd-67bdae8138911578570881117-Moda-Rapido-Men-Shirts-7151578570877582-1.jpg",
-    "category": "mens-shirts"
+    "image": "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/20921902/2022/12/5/3ecad5d2-862d-429c-a3ce-a227bde5b83e1670216639239-The-Indian-Garage-Co-Men-Shirts-2331670216638732-1.jpg",
+    "category": "mens-shirts",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/20921902/2022/12/5/3ecad5d2-862d-429c-a3ce-a227bde5b83e1670216639239-The-Indian-Garage-Co-Men-Shirts-2331670216638732-1.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/20921902/2022/12/5/9909fec7-2307-479f-9e14-ac07346cffd81670216639227-The-Indian-Garage-Co-Men-Shirts-2331670216638732-2.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/20921902/2022/12/5/b2f34c9b-4054-44ba-bfc8-93c966417dcb1670216639203-The-Indian-Garage-Co-Men-Shirts-2331670216638732-4.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/20921902/2022/12/5/2836297b-dc3b-4fd0-b9da-ba16481ceb461670216639182-The-Indian-Garage-Co-Men-Shirts-2331670216638732-6.jpg"
+    ]
   },
   {
     "id": 12,
@@ -140,8 +183,14 @@
     "discountPercentage": 46.2,
     "rating": 3.8,
     "reviews": 3882,
-    "image": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/11896068/2020/7/13/f0f3f21e-f3a7-4e94-9281-6c67a5b81bcf1594642103925-Roadster-Men-Shirts-4911594642101481-1.jpg",
-    "category": "mens-shirts"
+    "image": "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/8889501/2019/3/19/6fa08c94-8835-4963-a84b-4f18bcd46e781552979698271-Roadster-Men-Black--Red-Regular-Fit-Checked-Casual-Shirt-135-1.jpg",
+    "category": "mens-shirts",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/8889501/2019/3/19/6fa08c94-8835-4963-a84b-4f18bcd46e781552979698271-Roadster-Men-Black--Red-Regular-Fit-Checked-Casual-Shirt-135-1.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/8889501/2019/3/19/d40b16a5-39a4-4816-8315-174f3441b28d1552979698251-Roadster-Men-Black--Red-Regular-Fit-Checked-Casual-Shirt-135-2.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/8889501/2019/3/19/2af6be71-e1d6-44f2-b032-bf866374888e1552979698235-Roadster-Men-Black--Red-Regular-Fit-Checked-Casual-Shirt-135-3.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/8889501/2019/3/19/e78487cd-bd0b-400d-8b05-3da5aedbd7171552979698220-Roadster-Men-Black--Red-Regular-Fit-Checked-Casual-Shirt-135-4.jpg"
+    ]
   },
   {
     "id": 13,
@@ -164,8 +213,14 @@
     "discountPercentage": 46.2,
     "rating": 4.3,
     "reviews": 4382,
-    "image": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/33884198/2025/5/20/6453fd7f-32e0-4a65-aba0-2fb07399146d1747741813491-Blackberrys-Men-Shirts-7181747741812881-1.jpg",
-    "category": "mens-shirts"
+    "image": "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/15533080/2021/10/29/7d97fe49-772c-492c-bde0-13dcee4107ba1635486055006-THE-BEAR-HOUSE-Men-Shirts-1161635486054413-1.jpg",
+    "category": "mens-shirts",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/15533080/2021/10/29/7d97fe49-772c-492c-bde0-13dcee4107ba1635486055006-THE-BEAR-HOUSE-Men-Shirts-1161635486054413-1.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/15533080/2021/10/29/1428fc60-ae71-4e5e-b81f-c455d7f537de1635486054997-THE-BEAR-HOUSE-Men-Shirts-1161635486054413-2.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/15533080/2021/10/29/63675485-ddb0-418e-9c6f-ae6cb5f1b57a1635486054977-THE-BEAR-HOUSE-Men-Shirts-1161635486054413-4.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/15533080/2021/10/29/044310f6-721b-4708-97da-8c646e5bb2581635486054956-THE-BEAR-HOUSE-Men-Shirts-1161635486054413-6.jpg"
+    ]
   },
   {
     "id": 15,
@@ -176,8 +231,14 @@
     "discountPercentage": 26.2,
     "rating": 4.4,
     "reviews": 4582,
-    "image": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/16340064/2021/12/16/f5dd7c90-64f6-4ccb-b416-387a7c56cec91639657766732-THE-BEAR-HOUSE-Men-Red-Slim-Fit-Pure-Cotton-Checked-Casual-S-1.jpg",
-    "category": "mens-shirts"
+    "image": "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/FEBRUARY/10/ZhNtyUDh_d4e70d03fd5c455b82264a7ec77eaccb.jpg",
+    "category": "mens-shirts",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/FEBRUARY/10/ZhNtyUDh_d4e70d03fd5c455b82264a7ec77eaccb.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/FEBRUARY/10/kH32x6Df_2b73fd88de8e4418aaca1a5b97fe0093.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/FEBRUARY/10/JZOJH4JO_00c6a7e490204a4aa2bfb097f4d896b7.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/FEBRUARY/10/3ZqSlgB9_8b9b61f9705f45918dd8820d3a0b0077.jpg"
+    ]
   },
   {
     "id": 16,
@@ -188,8 +249,14 @@
     "discountPercentage": 36.2,
     "rating": 4.9,
     "reviews": 4582,
-    "image": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/28086694/2024/3/7/62480a52-1240-49da-b287-7399e208ce2a1709796677440HIGHLANDERMenSlimFitTartanChecksOpaqueCheckedCasualShirt1.jpg",
-    "category": "mens-shirts"
+    "image": "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/25641120/2023/10/26/705bbd19-ad82-497f-87ee-b3b7138c1c661698333271538Shirts1.jpg",
+    "category": "mens-shirts",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/25641120/2023/10/26/705bbd19-ad82-497f-87ee-b3b7138c1c661698333271538Shirts1.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/25641120/2023/10/26/d1523492-7df8-4d70-8d85-a3a7aef616a01698333271555Shirts2.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/25641120/2023/10/26/f6cae06c-cc56-44f4-a25d-85ae30b0612e1698333271532Shirts3.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/25641120/2023/10/26/2ea669d3-210a-4e07-83d8-26499b2f16031698333271517Shirts5.jpg"
+    ]
   },
   {
     "id": 17,
@@ -200,8 +267,14 @@
     "discountPercentage": 34.2,
     "rating": 4.1,
     "reviews": 4182,
-    "image": "https://assets.myntassets.com/f_webp,dpr_2.0,q_60,w_210,c_limit,fl_progressive/assets/images/8889611/2019/3/20/3eae8fb4-b7ca-4e01-80bf-d1e59ab1568d1553080254589-Roadster-Men-Black--White-Regular-Fit-Checked-Casual-Shirt-9-1.jpg",
-    "category": "mens-shirts"
+    "image": "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/AUGUST/29/cGDfdiRP_4bc85ba419da4efcaaac99d9129e7e45.jpg",
+    "category": "mens-shirts",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/AUGUST/29/cGDfdiRP_4bc85ba419da4efcaaac99d9129e7e45.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/AUGUST/29/j0ZsFHri_5612bf340c25463881772a3628489e87.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/AUGUST/29/OiUwyK1j_250bd8ff687b4d02b40b5b311d32f4f2.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/AUGUST/29/iMg2173E_a00237697b8942b2a4b0fdb30cfbe1c0.jpg"
+    ]
   },
   {
     "id": 18,
@@ -212,8 +285,14 @@
     "discountPercentage": 54.2,
     "rating": 3.4,
     "reviews": 3482,
-    "image": "https://assets.myntassets.com/f_webp,dpr_2.0,q_60,w_210,c_limit,fl_progressive/assets/images/2025/JULY/16/sVaIVB2f_a9db70eb33bd4fdc97bd33cbc152f9cc.jpg",
-    "category": "mens-shirts"
+    "image": "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2024/NOVEMBER/19/9TA1w6B4_0d22851000b34d118f98b3a6af77eb2e.jpg",
+    "category": "mens-shirts",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2024/NOVEMBER/19/9TA1w6B4_0d22851000b34d118f98b3a6af77eb2e.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2024/NOVEMBER/19/y0pcfBuC_d69ccd9bc552438a9fe787fc157230da.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2024/NOVEMBER/19/EjSs3j7L_cab7b92694fa4e7c8cac869ac51d562c.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2024/NOVEMBER/19/t3dV36IN_62bdfe2bd0d94135821bf0a6b549e4cc.jpg"
+    ]
   },
 
   {
@@ -225,8 +304,14 @@
     "discountPercentage": 30.2,
     "rating": 4.4,
     "reviews": 4400,
-    "image": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/11551884/2020/3/3/589d131a-aa9b-4f6b-80d1-a1b88afa7e501583234211403-WROGN-ACTIVE-Men-Tshirts-2241583234209778-1.jpg",
-    "category": "mens-t-shirt"
+    "image": "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2024/DECEMBER/2/1WuZpjzf_976c9a1088cd4b3b9df43506ef60f2b8.jpg",
+    "category": "mens-t-shirt",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2024/DECEMBER/2/1WuZpjzf_976c9a1088cd4b3b9df43506ef60f2b8.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2024/DECEMBER/2/xJmVQntK_3a3cd191afac48559b929bc89ae474ca.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2024/DECEMBER/2/ZgYANYmb_5c129bff9d7543958b05a60030e63dd5.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2024/DECEMBER/2/ZD9FurRF_b8e0dd09a4ca4ad0a094ca2944b141cd.jpg"
+    ]
   },
   {
     "id": 20,
@@ -237,8 +322,14 @@
     "discountPercentage": 30.2,
     "rating": 3.4,
     "reviews": 3400,
-    "image": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/32193183/2025/1/3/20101921-9818-4aa6-be47-d4ea96af4ec51735885407991CampusSutraMenStripedPoloCollarPocketsT-shirt1.jpg",
-    "category": "mens-t-shirt"
+    "image": "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2024/SEPTEMBER/9/4s9FXbPx_23a544784c62406fac38a0d38a31f611.jpg",
+    "category": "mens-t-shirt",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2024/SEPTEMBER/9/4s9FXbPx_23a544784c62406fac38a0d38a31f611.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2024/SEPTEMBER/9/Vk3dNHGX_3bf3239ee55f460fbe8d9cd54e9ec7dd.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2024/SEPTEMBER/9/UAAY44Aj_a0c7c87e524f4502b9d2ea60305504b0.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2024/SEPTEMBER/9/9pA2p2ps_6ba6a40ee35b4bfcad413d13627ccac4.jpg"
+    ]
   },
   {
     "id": 21,
@@ -249,8 +340,14 @@
     "discountPercentage": 32.2,
     "rating": 4.4,
     "reviews": 4400,
-    "image": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/32542805/2025/7/9/b033de64-dca0-4fee-bb5b-7619d65aeb521752038047233-WROGN-Men-Tshirts-7291752038046594-1.jpg",
-    "category": "mens-t-shirt"
+    "image": "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/JUNE/12/sov2oYqV_cb48497a5d674187ae4dbd74b30e8648.jpg",
+    "category": "mens-t-shirt",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/JUNE/12/sov2oYqV_cb48497a5d674187ae4dbd74b30e8648.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/JUNE/12/s1NSeXGG_a9c17615aff9457fbd12b00eaef489c1.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/JUNE/12/CDTbMpU3_22658db31e6449b08e798cd704c11456.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/JUNE/12/0X3spPn7_5c97c3d6bbeb4cc99ad4b4036fb06767.jpg"
+    ]
   },
   {
     "id": 22,
@@ -261,8 +358,14 @@
     "discountPercentage": 30.2,
     "rating": 4.3,
     "reviews": 4300,
-    "image": "https://assets.myntassets.com/f_webp,dpr_2.0,q_60,w_210,c_limit,fl_progressive/assets/images/30850266/2025/6/17/42d0df0b-9a7f-4df8-80ab-c8bbf7e7ce6b1750156161073-Puma-Mens-Slim-Fit-Polo-T-shirt-3801750156160589-1.jpg",
-    "category": "mens-t-shirt"
+    "image": "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/35145722/2025/7/4/4eb33279-a313-4a01-a157-23bc3517a09e1751620990873-Puma-Essentials-Small-No-1-Logo-Mens-Everyday-Comfort-T-shir-1.jpg",
+    "category": "mens-t-shirt",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/35145722/2025/7/4/4eb33279-a313-4a01-a157-23bc3517a09e1751620990873-Puma-Essentials-Small-No-1-Logo-Mens-Everyday-Comfort-T-shir-1.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/35145722/2025/7/4/48f13c04-c0d7-4b67-9d7b-85e3a3615da11751620990845-Puma-Essentials-Small-No-1-Logo-Mens-Everyday-Comfort-T-shir-2.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/35145722/2025/7/4/283e7793-b4bc-44b2-bf69-3f0235217c791751620990814-Puma-Essentials-Small-No-1-Logo-Mens-Everyday-Comfort-T-shir-3.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/35145722/2025/7/4/8cada8f4-04da-4682-af56-83279760594c1751620990757-Puma-Essentials-Small-No-1-Logo-Mens-Everyday-Comfort-T-shir-5.jpg"
+    ]
   },
   {
     "id": 23,
@@ -273,8 +376,14 @@
     "discountPercentage": 21.3,
     "rating": 4.4,
     "reviews": 4400,
-    "image": "https://assets.myntassets.com/f_webp,dpr_2.0,q_60,w_210,c_limit,fl_progressive/assets/images/2025/JULY/12/0QdCzfrZ_29aec2936ccc4fad84ff4452e12bf84e.jpg",
-    "category": "mens-t-shirt"
+    "image": "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/JULY/11/ORAe0663_4b356156365f44b29815965368a2b757.jpg",
+    "category": "mens-t-shirt",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/JULY/11/ORAe0663_4b356156365f44b29815965368a2b757.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/JULY/11/VMSHfGg4_891ae388d8864dd9869c9bcfbb3b4453.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/JULY/11/XwvmWyDp_75672902067b4b18a91c59f22c3d016a.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/JULY/11/XwvmWyDp_75672902067b4b18a91c59f22c3d016a.jpg"
+    ]
   },
   {
     "id": 24,
@@ -285,8 +394,14 @@
     "discountPercentage": 32.2,
     "rating": 4.4,
     "reviews": 4400,
-    "image": "https://assets.myntassets.com/f_webp,dpr_2.0,q_60,w_210,c_limit,fl_progressive/assets/images/2025/JULY/11/bzhwRGcJ_a595657825b64f71abe1dda5337f9c6a.jpg",
-    "category": "mens-t-shirt"
+    "image": "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/APRIL/8/Y3bWfPoE_17b3c06685b7449ab874759dd1a16451.jpg",
+    "category": "mens-t-shirt",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/APRIL/8/Y3bWfPoE_17b3c06685b7449ab874759dd1a16451.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/APRIL/8/NnQcalHw_58ca04260eda4ab29d44e4e24c79f32f.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/APRIL/8/vqzuFaSX_e13270cf22414cbdaaded5f2945b9b90.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/APRIL/8/PDWJMcAX_4c72b0611b4d453281365e866aa73e3d.jpg"
+    ]
   },
   {
     "id": 25,
@@ -297,8 +412,14 @@
     "discountPercentage": 30.2,
     "rating": 4.7,
     "reviews": 4700,
-    "image": "https://assets.myntassets.com/f_webp,dpr_2.0,q_60,w_210,c_limit,fl_progressive/assets/images/33455724/2025/7/8/5b9daaad-11f0-40cb-a4ed-6bd0ce8f0a271751976776547-Nautica-Men-Tshirts-4331751976775896-1.jpg",
-    "category": "mens-t-shirt"
+    "image": "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/MARCH/6/MIWsakEY_fd2b69422c914035a44f9af04422231d.jpg",
+    "category": "mens-t-shirt",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/MARCH/6/MIWsakEY_fd2b69422c914035a44f9af04422231d.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/MARCH/6/zp69CgzB_acb8bce107204742b335968b2a3faae9.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/MARCH/6/9swGfpfK_b8dac049e27846fa9373a6e540641285.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/MARCH/6/rDULbS7y_83acc2d2296e47fab78cf5588f8cd320.jpg"
+    ]
   },
   {
     "id": 26,
@@ -309,8 +430,14 @@
     "discountPercentage": 47.2,
     "rating": 4.4,
     "reviews": 4400,
-    "image": "https://assets.myntassets.com/f_webp,dpr_2.0,q_60,w_210,c_limit,fl_progressive/assets/images/26025814/2024/2/1/06713e07-f2a4-428b-bee0-f0c3e5cc37741706783329873-HRX-by-Hrithik-Roshan-Men-Tshirts-8501706783329417-1.jpg",
-    "category": "mens-t-shirt"
+    "image": "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/26025814/2024/2/1/06713e07-f2a4-428b-bee0-f0c3e5cc37741706783329873-HRX-by-Hrithik-Roshan-Men-Tshirts-8501706783329417-1.jpg",
+    "category": "mens-t-shirt",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/26025814/2024/2/1/06713e07-f2a4-428b-bee0-f0c3e5cc37741706783329873-HRX-by-Hrithik-Roshan-Men-Tshirts-8501706783329417-1.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/26025814/2024/2/1/086104ca-fac9-4344-9214-b869a4841b611706783329858-HRX-by-Hrithik-Roshan-Men-Tshirts-8501706783329417-2.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/26025814/2024/2/1/0e83becb-4a45-41b4-86b8-b1513fb606611706783329847-HRX-by-Hrithik-Roshan-Men-Tshirts-8501706783329417-3.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/26025814/2024/2/1/1d481439-d9d0-4cc2-809f-002db4b65a351706783329804-HRX-by-Hrithik-Roshan-Men-Tshirts-8501706783329417-7.jpg"
+    ]
   },
   {
     "id": 27,
@@ -321,8 +448,14 @@
     "discountPercentage": 32.2,
     "rating": 2.7,
     "reviews": 2790,
-    "image": "https://assets.myntassets.com/f_webp,dpr_2.0,q_60,w_210,c_limit,fl_progressive/assets/images/16127474/2023/11/20/58711868-9ccb-45aa-a3f3-ca6c6942f0581700479581777USPoloAssnMenRedNavyBlueStripedComfort-FitLoungeT-Shirt1.jpg",
-    "category": "mens-t-shirt"
+    "image": "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/19482638/2023/12/4/c67eb502-f1cf-4e8b-a79b-86d2b04f0b191701684464676USPoloAssnTypographyPrintedAthleisureLoungeT-Shirt1.jpg",
+    "category": "mens-t-shirt",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/19482638/2023/12/4/c67eb502-f1cf-4e8b-a79b-86d2b04f0b191701684464676USPoloAssnTypographyPrintedAthleisureLoungeT-Shirt1.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/19482638/2023/12/4/5d28056f-e7d7-467f-93f8-1c709bd23b451701684464682USPoloAssnTypographyPrintedAthleisureLoungeT-Shirt2.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/19482638/2023/12/4/9c988c9f-592a-4260-97e7-8153ecad06271701684464699USPoloAssnTypographyPrintedAthleisureLoungeT-Shirt4.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/19482638/2023/12/4/5ae87bbe-88eb-4d61-93f2-3f0c18fc70571701684464707USPoloAssnTypographyPrintedAthleisureLoungeT-Shirt5.jpg"
+    ]
   },
   {
     "id": 28,
@@ -333,8 +466,14 @@
     "discountPercentage": 52,
     "rating": 4.7,
     "reviews": 4790,
-    "image": "https://assets.myntassets.com/f_webp,dpr_2.0,q_60,w_210,c_limit,fl_progressive/assets/images/31426987/2025/5/14/ec2267f5-fa09-4163-a495-d386865906c91747216712981-glitchez-Typography-Printed-Relaxed-Fit-T-shirt-721747216712-1.jpg",
-    "category": "mens-t-shirt"
+    "image": "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/22732806/2023/4/11/fa711dd3-8913-450e-8466-5d7ab99d1fa51681230108195CampusSutraStripedMenMandarinCollarLightGreenSportsT-Shirt1.jpg",
+    "category": "mens-t-shirt",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/22732806/2023/4/11/fa711dd3-8913-450e-8466-5d7ab99d1fa51681230108195CampusSutraStripedMenMandarinCollarLightGreenSportsT-Shirt1.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/22732806/2023/4/11/fc189e66-677f-4b77-a5f3-f9fa08a33cb31681230108232CampusSutraStripedMenMandarinCollarLightGreenSportsT-Shirt2.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/22732806/2023/4/11/2d65e6f9-8ab1-4a3c-88c2-747060e800a21681230108258CampusSutraStripedMenMandarinCollarLightGreenSportsT-Shirt3.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/22732806/2023/4/11/f4c8f48d-0bee-4463-88f0-db46ebebca0c1681230108218CampusSutraStripedMenMandarinCollarLightGreenSportsT-Shirt6.jpg"
+    ]
   },
   {
     "id": 29,
@@ -345,20 +484,32 @@
     "discountPercentage": 50.1,
     "rating": 3.7,
     "reviews": 3790,
-    "image": "https://assets.myntassets.com/f_webp,dpr_2.0,q_60,w_210,c_limit,fl_progressive/assets/images/25856116/2024/2/19/6d1b6746-c6df-4942-81af-92d38528ccfd1708331686296-French-Connection-Men-Tshirts-1681708331685857-1.jpg",
-    "category": "mens-t-shirt"
+    "image": "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/MAY/22/pKXE1cnT_40376b9ce7614ef2aca1510e35c03695.jpg",
+    "category": "mens-t-shirt",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/MAY/22/pKXE1cnT_40376b9ce7614ef2aca1510e35c03695.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/MAY/22/hWSeZjlR_eeeba03ad078465987bf37e54609453e.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/MAY/22/9kAVqlDI_cd50f642277b4c51b49ed76188859b62.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/MAY/22/DLbg0HrC_964cb175caf9419d8f25e0395ba05064.jpg"
+    ]
   },
   {
     "id": 30,
-    "brand": "V-martma",
+    "brand": "V-mart",
     "title": "mens T-Shirt",
     "price": 299,
     "originalPrice": 699,
     "discountPercentage": 32.2,
     "rating": 2.1,
     "reviews": 2190,
-    "image": "https://assets.myntassets.com/f_webp,dpr_2.0,q_60,w_210,c_limit,fl_progressive/assets/images/2025/SEPTEMBER/24/w0irJG1K_9e76654427854f86851c31e601eecff7.jpg",
-    "category": "mens-t-shirt"
+    "image": "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/AUGUST/27/VEQ21Mfn_95bf07b4d0594c18b5c292edcd7cf13b.jpg",
+    "category": "mens-t-shirt",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/AUGUST/27/VEQ21Mfn_95bf07b4d0594c18b5c292edcd7cf13b.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/AUGUST/27/DA5Z0W0g_d54e6065e05a475a8e11d2af227b0604.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/AUGUST/27/gCaDyFef_f82b2ea8697240ff9a0525b2471813e2.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/AUGUST/27/0yauP3or_843d6a3e574747babfcca35f3a80dc2f.jpg"
+    ]
   },
   {
     "id": 31,

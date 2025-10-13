@@ -9,7 +9,7 @@ const RisingStars = ({ RisingStarsData }) => {
     <>
       {" "}
       <div className="">
-        <div className="py-15 text-2xl font-bold tracking-widest text-gray-700 px-5 ">
+        <div className="pt-8 pb-2 md:py-12 md:text-2xl font-bold tracking-widest text-gray-700 md:px-5 ">
           <h1>RISING STARS</h1>
         </div>
         <div className="max-w-full pb-2 md:pb-4">

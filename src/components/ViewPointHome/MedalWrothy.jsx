@@ -8,7 +8,7 @@ const MedalWrothy = ({ ModalWrothyData }) => {
   return (
     <>
       <div className="">
-        <div className="py-15 text-2xl font-bold tracking-widest text-gray-700 px-5">
+        <div className="t-5 pb-2 md:py-15 md:text-2xl font-bold tracking-widest text-gray-700 md:px-5">
           <h1>MEDAL WORTHY BRANDS TO BAG</h1>
         </div>
         <div className="max-w-full pb-2 md:pb-4">

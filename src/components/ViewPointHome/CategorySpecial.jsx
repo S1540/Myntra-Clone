@@ -5,7 +5,7 @@ const CategorySpecial = ({ CategoryData }) => {
   return (
     <>
       <section className="max-w-full w-full px-4">
-        <div className="py-15 text-2xl font-bold tracking-widest text-gray-700 px-5 ">
+        <div className="t-5 pb-2 md:py-12 md:text-2xl font-bold tracking-widest text-gray-700 md:px-5 ">
           <h1>SHOP BY CATEGORY</h1>
         </div>
         <div className="w-full grid grid-cols-3 sm:grid-cols-4 md:grid-cols-6">
