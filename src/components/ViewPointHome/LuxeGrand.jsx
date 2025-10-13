@@ -9,7 +9,7 @@ const LuxeGrand = ({ LuxeGrandData }) => {
   return (
     <>
       <div className="">
-        <div className="t-5 pb-2 md:py-15 md:text-2xl font-bold tracking-widest text-gray-700 md:px-5 ">
+        <div className="t-5 pb-2 md:py-12 md:text-2xl font-bold tracking-widest text-gray-700 md:px-5 ">
           <h1>LUXE GRAND REDUCTION DEALS</h1>
         </div>
         <div className="max-w-full pb-2 md:pb-4">
