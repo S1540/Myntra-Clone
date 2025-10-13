@@ -1068,8 +1068,14 @@
     "discountPercentage": 54,
     "rating": 3.5,
     "reviews": 4790,
-    "image": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2025/AUGUST/14/O6Zuqp2u_84c83d14849b48a0863d7729b298420c.jpg",
-    "category": "womens-wear"
+    "image": "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/33097813/2025/4/24/5d98cf7c-8bf4-47ec-9513-b36d14eb965f1745493132212-Ishin-Women-Floral-Printed-Regular-Pure-Cotton-Kurta-with-Tr-1.jpg",
+    "category": "womens-wear",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/33097813/2025/4/24/5d98cf7c-8bf4-47ec-9513-b36d14eb965f1745493132212-Ishin-Women-Floral-Printed-Regular-Pure-Cotton-Kurta-with-Tr-1.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/33097813/2025/4/24/06a5a423-9a5f-46e5-8980-7297dfee80441745493132187-Ishin-Women-Floral-Printed-Regular-Pure-Cotton-Kurta-with-Tr-2.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/33097813/2025/4/24/ed1f5659-73e5-4e0e-b10b-dd5a251122a71745493132163-Ishin-Women-Floral-Printed-Regular-Pure-Cotton-Kurta-with-Tr-3.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/33097813/2025/4/24/9d7526dc-a5cd-4d69-b1a6-1e07915ec4581745493132112-Ishin-Women-Floral-Printed-Regular-Pure-Cotton-Kurta-with-Tr-5.jpg"
+    ]
   },
   {
     "id": 64,
@@ -1080,8 +1086,14 @@
     "discountPercentage": 56,
     "rating": 4.5,
     "reviews": 4790,
-    "image": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2025/JULY/14/k1xVelVX_e4ded28c722845adb716c4136dc0955d.jpg",
-    "category": "womens-wear"
+    "image": "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/15535314/2022/11/16/6089e72c-1054-41a3-8bc1-ce0a8d5f62da1668583166391-Ishin-Women-Red-Floral-Embroidered-Regular-Gotta-Patti-Pure--1.jpg",
+    "category": "womens-wear",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/15535314/2022/11/16/6089e72c-1054-41a3-8bc1-ce0a8d5f62da1668583166391-Ishin-Women-Red-Floral-Embroidered-Regular-Gotta-Patti-Pure--1.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/15535314/2022/11/16/3aae92d7-ba4a-4451-a7db-a05a3fc28f561668583166366-Ishin-Women-Red-Floral-Embroidered-Regular-Gotta-Patti-Pure--2.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/15535314/2022/11/16/504113a7-9fbb-4263-b69a-89d978d786991668583166294-Ishin-Women-Red-Floral-Embroidered-Regular-Gotta-Patti-Pure--5.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/15535314/2022/11/16/f8908e76-6f55-4560-aab7-165bffe790771668583166271-Ishin-Women-Red-Floral-Embroidered-Regular-Gotta-Patti-Pure--6.jpg"
+    ]
   },
   {
     "id": 65,
@@ -1092,7 +1104,181 @@
     "discountPercentage": 54,
     "rating": 4.2,
     "reviews": 4790,
-    "image": "https://assets.myntassets.com/f_webp,dpr_1.5,q_60,w_210,c_limit,fl_progressive/assets/images/2024/AUGUST/2/AUiHLLhL_2d499fddfb2f48bea8b24aaa47d8ecf2.jpg",
-    "category": "womens-wear"
+    "image": "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/JUNE/16/yrJcs5Um_62b457d5e33e4fb6880f82071cbd9876.jpg",
+    "category": "womens-wear",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/JUNE/16/yrJcs5Um_62b457d5e33e4fb6880f82071cbd9876.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/JUNE/16/jFHIPl1B_e12a110a0c6548848dda675b4ba97573.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/JUNE/16/Zf7HkcBx_2f4bfb24c95642fdbf7381a16590af9f.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/JUNE/16/mknXcrxB_b3e15065f61a4d1d95c48361b2c42f50.jpg"
+    ]
+  },
+
+  {
+    "id": 66,
+    "brand": "HERE&NOW",
+    "title": "OverSixed Ribbed Corduroy Shirt",
+    "price": 564,
+    "originalPrice": 2399,
+    "discountPercentage": 74,
+    "rating": 4.1,
+    "reviews": 4120,
+    "image": "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/25128902/2023/9/23/1d6c822a-a9c7-4898-9042-59ba632d5d001695445558581HERENOWMenGreyOpaqueCasualShirt1.jpg",
+    "category": "mens-half-shirts",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/25128902/2023/9/23/1d6c822a-a9c7-4898-9042-59ba632d5d001695445558581HERENOWMenGreyOpaqueCasualShirt1.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/25128902/2023/9/23/c3d649f5-6758-429f-afe1-a6d010b7af081695445558526HERENOWMenGreyOpaqueCasualShirt2.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/25128902/2023/9/23/4e1ccae1-0ce8-4c0c-bb18-17faf9705aee1695445558560HERENOWMenGreyOpaqueCasualShirt3.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/25128902/2023/9/23/0d26da75-cedf-4688-b5ea-e019441699f31695445558542HERENOWMenGreyOpaqueCasualShirt5.jpg"
+    ]
+  },
+  {
+    "id": 67,
+    "brand": "RoadSter",
+    "title": "The LifeStyle Co Men Grey Printed Shirt",
+    "price": 526,
+    "originalPrice": 1699,
+    "discountPercentage": 69,
+    "rating": 4.2,
+    "reviews": 4220,
+    "image": "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17051772/2022/6/20/8ad01bfe-bb8e-4b3d-98e0-e5b2474538d31655723437022-Roadster-Men-Shirts-411655723436538-1.jpg",
+    "category": "mens-half-shirts",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17051772/2022/6/20/8ad01bfe-bb8e-4b3d-98e0-e5b2474538d31655723437022-Roadster-Men-Shirts-411655723436538-1.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17051772/2022/6/20/96612143-8da9-4cf0-8a67-0f9cecea2b921655723437014-Roadster-Men-Shirts-411655723436538-2.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17051772/2022/6/20/e4ba5a88-7dd3-43b2-bb12-c632f0d633d41655723437005-Roadster-Men-Shirts-411655723436538-3.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/17051772/2022/6/20/125b3dd2-638c-4ba4-9e05-fa8f287fd4fc1655723436992-Roadster-Men-Shirts-411655723436538-4.jpg"
+    ]
+  },
+  {
+    "id": 68,
+    "brand": "HIGHLANDER",
+    "title": "VerTical Striped Cuban Collar Drop Shoulder Shirt",
+    "price": 788,
+    "originalPrice": 2399,
+    "discountPercentage": 66,
+    "rating": 3.5,
+    "reviews": 3550,
+    "image": "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/AUGUST/13/8afDD5LQ_93372835e9754fc7b71ae904697dc85c.jpg",
+    "category": "mens-half-shirts",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/AUGUST/13/8afDD5LQ_93372835e9754fc7b71ae904697dc85c.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/AUGUST/13/mPxKCPj2_83e8d4f81d5d44fe988a2d259be69370.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/AUGUST/13/vVrDOjNv_4a5a5a4c5bf340ba821f68938e3b56a1.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/AUGUST/13/5nvaZ4iz_74ace5044f134a28b36ca8f5eb791996.jpg"
+    ]
+  },
+  {
+    "id": 69,
+    "brand": "Mast & Harbour",
+    "title": "Men Slim Fit Cuban Collar Shirt",
+    "price": 644,
+    "originalPrice": 2149,
+    "discountPercentage": 65,
+    "rating": 4.3,
+    "reviews": 4352,
+    "image": "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/25958732/2023/12/1/45dd1264-c5fb-4fbe-b574-df14ee6014821701426149222-Mast--Harbour-Men-Shirts-1051701426148939-1.jpg",
+    "category": "mens-half-shirts",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/25958732/2023/12/1/45dd1264-c5fb-4fbe-b574-df14ee6014821701426149222-Mast--Harbour-Men-Shirts-1051701426148939-1.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/25958732/2023/12/1/33727c6d-9be7-48cd-83c3-7fa39210862a1701426149216-Mast--Harbour-Men-Shirts-1051701426148939-2.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/25958732/2023/12/1/3eebcfc7-2a25-4be2-b611-5d1647c1f8ba1701426149210-Mast--Harbour-Men-Shirts-1051701426148939-3.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/25958732/2023/12/1/a6b56daa-af19-42dc-80de-0a0fa9c8c2201701426149197-Mast--Harbour-Men-Shirts-1051701426148939-5.jpg"
+    ]
+  },
+  {
+    "id": 70,
+    "brand": "Maniac",
+    "title": "Comfort Striped Collar Oversize Shirt",
+    "price": 799,
+    "originalPrice": 2491,
+    "discountPercentage": 67,
+    "rating": 4.4,
+    "reviews": 4452,
+    "image": "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/28176322/2024/3/11/f655c2ff-f3d0-43e2-8fa1-d92abb0026021710141226454ManiacMenComfortOpaqueStripedCasualShirt1.jpg",
+    "category": "mens-half-shirts",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/28176322/2024/3/11/f655c2ff-f3d0-43e2-8fa1-d92abb0026021710141226454ManiacMenComfortOpaqueStripedCasualShirt1.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/28176322/2024/3/11/74f4e664-2a2a-4380-a4b1-faa2b13d40781710141226478ManiacMenComfortOpaqueStripedCasualShirt2.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/28176322/2024/3/11/901d11ce-55b1-4b7f-9bf9-870162c86c0e1710141226502ManiacMenComfortOpaqueStripedCasualShirt3.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/28176322/2024/3/11/85939b0d-6916-4d6f-80ae-ac762bce72b31710141226407ManiacMenComfortOpaqueStripedCasualShirt4.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/28176322/2024/3/11/2df1f01c-ffc0-45ce-ad80-a2d4045eb8f41710141226431ManiacMenComfortOpaqueStripedCasualShirt5.jpg"
+    ]
+  },
+  {
+    "id": 71,
+    "brand": "HERE&NOW",
+    "title": "Men Printed Cuban Collar Shirt",
+    "price": 684,
+    "originalPrice": 1899,
+    "discountPercentage": 64,
+    "rating": 4.1,
+    "reviews": 4100,
+    "image": "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/29901596/2025/1/20/886d0b03-2513-463b-afa1-b1ddf917f71d1737371378745-HERENOW-Men-Printed-Relaxed-Fit-Casual-Shirt-390173737137826-1.jpg",
+    "category": "mens-half-shirts",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/29901596/2025/1/20/886d0b03-2513-463b-afa1-b1ddf917f71d1737371378745-HERENOW-Men-Printed-Relaxed-Fit-Casual-Shirt-390173737137826-1.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/29901596/2025/1/20/912d92bd-cf7b-44a1-955a-fa40251af6b61737371378681-HERENOW-Men-Printed-Relaxed-Fit-Casual-Shirt-390173737137826-2.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/29901596/2025/1/20/58d9d988-2a18-4056-af83-f6b5640819db1737371378713-HERENOW-Men-Printed-Relaxed-Fit-Casual-Shirt-390173737137826-3.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/29901596/2025/1/20/583763cf-5e7a-44ad-8a7c-08b4e9cc1e311737371378650-HERENOW-Men-Printed-Relaxed-Fit-Casual-Shirt-390173737137826-4.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/29901596/2025/1/20/c7c7902c-2749-4bc0-a573-d95497ce7c9f1737371378778-HERENOW-Men-Printed-Relaxed-Fit-Casual-Shirt-390173737137826-5.jpg"
+    ]
+  },
+  {
+    "id": 72,
+    "brand": "Eszett Fashions",
+    "title": "Men Graphic Printed Cotton Shirt",
+    "price": 871,
+    "originalPrice": 2999,
+    "discountPercentage": 63,
+    "rating": 4.9,
+    "reviews": 4994,
+    "image": "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/SEPTEMBER/21/tqV75Rpv_d2ca73d9056044b6969338b80a613ffe.jpg",
+    "category": "mens-half-shirts",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/SEPTEMBER/21/tqV75Rpv_d2ca73d9056044b6969338b80a613ffe.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/SEPTEMBER/21/f9dv1oLW_bc4dcfceee3643438b7d277c5966ee07.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/SEPTEMBER/21/dbLqnKhv_65b032b9a21942d39265b7b355b2bad6.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/SEPTEMBER/21/7IhJClHM_a494d8fecde84ca8a85b327a1846d527.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/SEPTEMBER/21/RuNPApbj_0a4c361abb7548d88e08d350046e66f0.jpg"
+    ]
+  },
+  {
+    "id": 73,
+    "brand": "Mast & Harbour",
+    "title": "Nirvana Graphic Relaxed Fit Shirt",
+    "price": 571,
+    "originalPrice": 2000,
+    "discountPercentage": 73,
+    "rating": 4.9,
+    "reviews": 4994,
+    "image": "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2024/SEPTEMBER/13/lm1aHCBc_77e61145e3df480ab6bb0dfb787d52c6.jpg",
+    "category": "mens-half-shirts",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2024/SEPTEMBER/13/lm1aHCBc_77e61145e3df480ab6bb0dfb787d52c6.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2024/SEPTEMBER/13/06I2pNxJ_81b56e38534144c3a11591dc7e20be5f.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2024/SEPTEMBER/13/Onetn3qF_7f829b30a42c4422a3ad521af3b1d1ad.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2024/SEPTEMBER/13/FXn9Odxl_9ef77bdeec2f4459a3e8d9619a64b5c4.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2024/SEPTEMBER/13/T2XOiY37_5f021d9b30844e43971e123a5bd82ed4.jpg"
+    ]
+  },
+  {
+    "id": 74,
+    "brand": "Puma",
+    "title": "Kidsuper Men Striped Embroidered Shirt",
+    "price": 900,
+    "originalPrice": 2000,
+    "discountPercentage": 53,
+    "rating": 4.9,
+    "reviews": 4904,
+    "image": "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/MAY/30/GrBsFWIm_e2611160304343abb9a3cbf7620b8b75.jpg",
+    "category": "mens-half-shirts",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/MAY/30/GrBsFWIm_e2611160304343abb9a3cbf7620b8b75.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/MAY/30/RafKt0ll_e3a0071d682449bdb30f6e90a27d718d.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/MAY/30/tHBVxO7r_01c63479c6d54fbbabb0b940f62f87e2.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/MAY/30/hNYvlpDs_b2aa97416829442db8fd3a34c6caa900.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/MAY/30/Tscc1kez_5b3a8b83720a480ca51a9793b098697e.jpg"
+    ]
   }
 ]
