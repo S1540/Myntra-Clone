@@ -37,7 +37,7 @@ const Header = () => {
             <div className="w-20 h-10 md:h-12 flex-shrink-0">
               <NavLink to="/">
                 <img
-                  src="https://www.freepnglogos.com/uploads/logo-myntra-png/myntra-logo-m-png-3.png"
+                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-L2_hvNjcMysNA1DKWVpUAF5qtyn5wI_jYg&s"
                   alt="Myntra Logo"
                   className="w-full h-full object-cover"
                 />

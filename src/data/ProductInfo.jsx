@@ -1,10 +1,12 @@
 import React, { useEffect, useState } from "react";
 import { useParams } from "react-router-dom";
+import { useWishlist } from "../context/WishlistContext";
 
 const ProductInfo = () => {
   const { id } = useParams();
   const [product, setProduct] = useState(null);
   const [selectedImage, setSelectedImage] = useState(0);
+  const { wishlist, toggleWishlist, isWishlisted } = useWishlist();
 
   useEffect(() => {
     fetch("/products.json")
@@ -121,7 +123,7 @@ const ProductInfo = () => {
 
           {/* Action Buttons */}
           <div className="flex flex-wrap gap-3 mt-2">
-            <button className="flex-1 min-w-40 flex items-center justify-center gap-2 px-6 py-3 bg-pink-600 hover:bg-pink-700 text-white font-medium rounded-md transition-all duration-200 shadow-md hover:shadow-lg">
+            <button className="flex-1 min-w-40 flex items-center justify-center gap-2 px-6 py-3 bg-pink-600 hover:bg-pink-700 text-white font-medium rounded-md transition-all duration-200 shadow-md hover:shadow-lg cursor-pointer">
               <svg
                 className="w-5 h-5"
                 fill="none"
@@ -137,7 +139,14 @@ const ProductInfo = () => {
               </svg>
               <span>Add To Bag</span>
             </button>
-            <button className="flex-1 min-w-40 flex items-center justify-center gap-2 px-6 py-3 border-2 border-pink-600 text-pink-600 hover:bg-pink-50 font-medium rounded-md transition-all duration-200">
+            <button
+              onClick={() => toggleWishlist(product)}
+              className={`flex-1 min-w-40 flex items-center justify-center gap-2 px-6 py-3 border-2 border-pink-600 text-pink-600 hover:bg-pink-50 font-medium rounded-md transition-all duration-200 cursor-pointer ${
+                isWishlisted(product.id)
+                  ? "bg-pink-600 text-white hover:text-black"
+                  : "bg-white"
+              }`}
+            >
               <svg
                 className="w-5 h-5"
                 fill="none"
@@ -151,7 +160,9 @@ const ProductInfo = () => {
                   d="M4.318 6.318a4.5 4.5 0 000 6.364L12 20.364l7.682-7.682a4.5 4.5 0 00-6.364-6.364L12 7.636l-1.318-1.318a4.5 4.5 0 00-6.364 0z"
                 />
               </svg>
-              <span>Wishlist</span>
+              <span>
+                {isWishlisted(product.id) ? "Remove Item" : "Wishlist"}
+              </span>
             </button>
           </div>
 

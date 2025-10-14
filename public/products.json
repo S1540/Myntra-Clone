@@ -1438,5 +1438,88 @@
       "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/JULY/17/CuRLbFvE_7de28ef3f8134c459e402354197532c3.jpg",
       "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/JULY/17/7PP2Lhz2_8341198a086d48a18fe4f75c23d181c9.jpg"
     ]
+  },
+  {
+    "id": 84,
+    "brand": "H&M",
+    "title": "Girls Picot-Trimmed Jersey Top",
+    "price": 799,
+    "originalPrice": 1799,
+    "discountPercentage": 30,
+    "rating": 4.7,
+    "reviews": 4189,
+    "image": "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/SEPTEMBER/24/2LQJn5xS_a432cc20a5f24b9bb385086ea0ed992b.jpg",
+    "category": "Kids",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/SEPTEMBER/24/2LQJn5xS_a432cc20a5f24b9bb385086ea0ed992b.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/SEPTEMBER/24/NzmGsPHa_fa959d7387c04acb94790415fa912e51.jpg"
+    ]
+  },
+  {
+    "id": 85,
+    "brand": "Natucia",
+    "title": "Fleece Jacket",
+    "price": 679,
+    "originalPrice": 1799,
+    "discountPercentage": 30,
+    "rating": 3.6,
+    "reviews": 4189,
+    "image": "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/SEPTEMBER/9/yLoev272_ba4b586db48b43e8913d11866540b11e.jpg",
+    "category": "Kids",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/SEPTEMBER/9/yLoev272_ba4b586db48b43e8913d11866540b11e.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/SEPTEMBER/9/vrpKLCAE_2f0e2b8d67534a8f84984dcd5ebf4f85.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/SEPTEMBER/9/nwY6J0rx_24c9e58d18084589ab4fc48134e0288a.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/SEPTEMBER/9/asl25qsz_d1a92eb53b61444e81d63181f44d2c17.jpg"
+    ]
+  },
+  {
+    "id": 86,
+    "brand": "H&M",
+    "title": "7-Pack Socks",
+    "price": 349,
+    "originalPrice": 699,
+    "discountPercentage": 49,
+    "rating": 3.1,
+    "reviews": 4189,
+    "image": "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/JUNE/14/oDFXDyyh_b2537474cd684eb78eb3271244abca89.jpg",
+    "category": "Kids",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/JUNE/14/oDFXDyyh_b2537474cd684eb78eb3271244abca89.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/JUNE/14/M6ry6cRS_e18d37ad573f4e64969ee42494c56c1f.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/JUNE/14/3vOC1rfg_052a8c0dfec940c8b93fc862368b5b10.jpg"
+    ]
+  },
+  {
+    "id": 87,
+    "brand": "levis",
+    "title": "Rib-knit Jumper",
+    "price": 899,
+    "originalPrice": 1699,
+    "discountPercentage": 49,
+    "rating": 4.1,
+    "reviews": 4189,
+    "image": "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/32047371/2024/12/23/41555964-9120-45f1-96b2-25732adfbc801734938831596Rib-knitjumper1.jpg",
+    "category": "Kids",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/32047371/2024/12/23/41555964-9120-45f1-96b2-25732adfbc801734938831596Rib-knitjumper1.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/32047371/2024/12/23/6506d3df-a621-44e8-901c-dd56ff81e9be1734938831624Rib-knitjumper2.jpg"
+    ]
+  },
+  {
+    "id": 88,
+    "brand": "levis",
+    "title": "A-linr dress With Bow Detail",
+    "price": 499,
+    "originalPrice": 1099,
+    "discountPercentage": 59,
+    "rating": 3.1,
+    "reviews": 4189,
+    "image": "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/OCTOBER/9/Khd9IuN8_515ca0f4cb164295bc493dcf71915466.jpg",
+    "category": "Kids",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/OCTOBER/9/Khd9IuN8_515ca0f4cb164295bc493dcf71915466.jpg",
+      "https://assets.myntassets.com/fl_progressive/h_1440,q_70,w_1080/v1/assets/images/2025/OCTOBER/9/Khd9IuN8_515ca0f4cb164295bc493dcf71915466.jpg"
+    ]
   }
 ]
