@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { useParams, Link } from "react-router-dom";
 import { Search, X, Star } from "lucide-react";
 import { useWishlist } from "../context/WishlistContext";
+import { useCart } from "../context/CratContext";
 
 function ProductPage() {
   const { category } = useParams();
@@ -10,8 +11,8 @@ function ProductPage() {
   const [selectedColors, setSelectedColors] = useState([]);
   const [products, setProducts] = useState([]);
   const [loading, setLoading] = useState(true);
-  const { wishlist, toggleWishlist, isWishlisted } = useWishlist();
-
+  const { toggleWishlist, isWishlisted } = useWishlist();
+  const { addToBag } = useCart();
   const brands = [
     { name: "Roadster" },
     { name: "Killer" },
@@ -247,7 +248,10 @@ function ProductPage() {
                     )}
 
                     <div className="absolute bottom-0 left-0 right-0 translate-y-full group-hover:translate-y-0 transition-transform duration-300 flex items-center justify-center gap-2 p-3">
-                      <button className="bg-pink-500 text-white px-4 py-2 text-sm font-semibold hover:bg-pink-600 transition-colors cursor-pointer w-28 rounded-xs">
+                      <button
+                        onClick={() => addToBag(product)}
+                        className="bg-pink-500 text-white px-4 py-2 text-sm font-semibold hover:bg-pink-600 transition-colors cursor-pointer w-28 rounded-xs"
+                      >
                         Buy Now
                       </button>
                       <button

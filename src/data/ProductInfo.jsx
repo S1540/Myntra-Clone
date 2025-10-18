@@ -1,12 +1,20 @@
 import React, { useEffect, useState } from "react";
-import { useParams } from "react-router-dom";
+import { useParams, useNavigate } from "react-router-dom";
 import { useWishlist } from "../context/WishlistContext";
+import { useCart } from "../context/CratContext";
 
 const ProductInfo = () => {
   const { id } = useParams();
   const [product, setProduct] = useState(null);
   const [selectedImage, setSelectedImage] = useState(0);
   const { wishlist, toggleWishlist, isWishlisted } = useWishlist();
+  const { addToBag } = useCart();
+
+  const navigate = useNavigate();
+  const handleAddTobag = () => {
+    addToBag(product);
+    navigate("/bag");
+  };
 
   useEffect(() => {
     fetch("/products.json")
@@ -123,7 +131,10 @@ const ProductInfo = () => {
 
           {/* Action Buttons */}
           <div className="flex flex-wrap gap-3 mt-2">
-            <button className="flex-1 min-w-40 flex items-center justify-center gap-2 px-6 py-3 bg-pink-600 hover:bg-pink-700 text-white font-medium rounded-md transition-all duration-200 shadow-md hover:shadow-lg cursor-pointer">
+            <button
+              onClick={handleAddTobag}
+              className="flex-1 min-w-40 flex items-center justify-center gap-2 px-6 py-3 bg-pink-600 hover:bg-pink-700 text-white font-medium rounded-md transition-all duration-200 shadow-md hover:shadow-lg cursor-pointer"
+            >
               <svg
                 className="w-5 h-5"
                 fill="none"

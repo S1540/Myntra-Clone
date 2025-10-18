@@ -4,6 +4,7 @@ import { FaRegUser, FaRegHeart } from "react-icons/fa";
 import { HiOutlineShoppingBag, HiBars3 } from "react-icons/hi2";
 import { NavLink, useNavigate, Link } from "react-router-dom";
 import { useWishlist } from "../context/WishlistContext";
+import { useCart } from "../context/CratContext";
 
 const Header = () => {
   const [isProfileHovered, setIsProfileHovered] = useState(false);
@@ -25,6 +26,7 @@ const Header = () => {
   };
 
   const { wishlist } = useWishlist();
+  const { cart } = useCart();
 
   return (
     <>
@@ -150,7 +152,7 @@ const Header = () => {
                 <Link to={"/wishlist"}>
                   {" "}
                   {
-                    <span className="absolute -top-2 right-1 w-4 h-4 rounded-full bg-pink-600 text-white text-xs flex items-center justify-center">
+                    <span className="absolute -top-2 md:right-1 -right-2 w-4 h-4 rounded-full bg-pink-600 text-white text-xs flex items-center justify-center">
                       {wishlist.length}{" "}
                     </span>
                   }
@@ -159,7 +161,15 @@ const Header = () => {
                 </Link>
               </div>
               <div className="flex flex-col items-center">
-                <HiOutlineShoppingBag className="text-xl text-gray-800 cursor-pointer" />
+                <Link to={"/bag"}>
+                  {
+                    <span className="absolute top-5 lg:top-3 right-2 lg:right-6 w-4 h-4 rounded-full bg-pink-600 text-white text-xs flex items-center justify-center">
+                      {cart.length}{" "}
+                    </span>
+                  }
+
+                  <HiOutlineShoppingBag className="text-xl text-gray-800 cursor-pointer" />
+                </Link>
                 <span className="text-xs hidden md:block">Bag</span>
               </div>
             </div>

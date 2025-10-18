@@ -12,7 +12,9 @@ import KidPage from "./components/RoutePages/Kids/KidPage";
 import ProductPage from "./data/ProductPage";
 import WishlistPage from "./components/RoutePages/Wishlist/WishlistPage";
 import { WishlistProvider } from "./context/WishlistContext";
+import { CartProvider } from "./context/CratContext";
 import ProductInfo from "./data/ProductInfo";
+import BagPage from "./components/RoutePages/Bag/BagPage";
 
 function AppContent() {
   const location = useLocation();
@@ -22,24 +24,27 @@ function AppContent() {
     <>
       <ScrollToTop />
       <WishlistProvider>
-        <Header />
-        <Routes>
-          <Route
-            path="/"
-            element={
-              <>
-                <HeroSec />
-              </>
-            }
-          />
-          <Route path="/men" element={<MenPage />} />
-          <Route path="/women" element={<WomenPage />} />
-          <Route path="/login" element={<Login />} />
-          <Route path="/kids" element={<KidPage />} />
-          <Route path="/product/:category" element={<ProductPage />} />
-          <Route path="/productInfo/:id" element={<ProductInfo />} />
-          <Route path="/wishlist" element={<WishlistPage />} />
-        </Routes>
+        <CartProvider>
+          <Header />
+          <Routes>
+            <Route
+              path="/"
+              element={
+                <>
+                  <HeroSec />
+                </>
+              }
+            />
+            <Route path="/men" element={<MenPage />} />
+            <Route path="/women" element={<WomenPage />} />
+            <Route path="/login" element={<Login />} />
+            <Route path="/kids" element={<KidPage />} />
+            <Route path="/product/:category" element={<ProductPage />} />
+            <Route path="/productInfo/:id" element={<ProductInfo />} />
+            <Route path="/wishlist" element={<WishlistPage />} />
+            <Route path="/bag" element={<BagPage />} />
+          </Routes>
+        </CartProvider>
       </WishlistProvider>
       {!hideFooterOnRoutes.includes(location.pathname) && <Footer />}
     </>
