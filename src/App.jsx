@@ -15,6 +15,7 @@ import { WishlistProvider } from "./context/WishlistContext";
 import { CartProvider } from "./context/CratContext";
 import ProductInfo from "./data/ProductInfo";
 import BagPage from "./components/RoutePages/Bag/BagPage";
+import OrderSuccess from "./components/RoutePages/Bag/OrderSuccess";
 
 function AppContent() {
   const location = useLocation();
@@ -43,6 +44,7 @@ function AppContent() {
             <Route path="/productInfo/:id" element={<ProductInfo />} />
             <Route path="/wishlist" element={<WishlistPage />} />
             <Route path="/bag" element={<BagPage />} />
+            <Route path="/orderSuccess" element={<OrderSuccess />} />
           </Routes>
         </CartProvider>
       </WishlistProvider>

@@ -8,6 +8,7 @@ import { useCart } from "../context/CratContext";
 
 const Header = () => {
   const [isProfileHovered, setIsProfileHovered] = useState(false);
+  const [isOpenMenu, setIsOpenMenu] = useState(false);
   const navigate = useNavigate();
 
   const navlinks = [
@@ -33,7 +34,68 @@ const Header = () => {
       <header className="bg-white shadow-md shadow-gray-200 fixed top-0 left-0 right-0 w-full z-50 px-4 md:px-8">
         <div className="flex items-center justify-between h-20">
           <div className="flex items-center gap-2">
-            <HiBars3 className="text-3xl text-gray-800 cursor-pointer md:hidden" />
+            <HiBars3
+              onClick={() => setIsOpenMenu(!isOpenMenu)}
+              className="text-3xl text-gray-800 cursor-pointer md:hidden"
+            />
+            {/* Mobile Menu */}
+            {isOpenMenu && (
+              <>
+                <div
+                  className={`fixed top-0 left-0 h-full w-64 bg-white shadow-lg z-50 transform transition-transform duration-300 ease-in-out ${
+                    isOpenMenu ? "translate-x-0" : "-translate-x-full"
+                  }`}
+                >
+                  {/* Header inside drawer */}
+                  <div className="flex items-center justify-between px-4 py-4 border-b">
+                    <span className="text-lg font-semibold text-gray-800">
+                      Menu
+                    </span>
+                    <button
+                      onClick={() => setIsOpenMenu(false)}
+                      className="text-gray-600 hover:text-pink-600 text-xl"
+                    >
+                      ✕
+                    </button>
+                  </div>
+
+                  {/* Nav links */}
+                  <nav className="p-4">
+                    <ul className="flex flex-col gap-4 text-sm font-semibold text-gray-800">
+                      {navlinks.map((link, index) => (
+                        <li key={index}>
+                          <NavLink
+                            to={link.path}
+                            onClick={() => setIsOpenMenu(false)}
+                            className={({ isActive }) =>
+                              isActive
+                                ? "text-pink-600 border-b-2 border-pink-600 pb-1 transition-colors"
+                                : "hover:text-pink-600 transition-colors"
+                            }
+                          >
+                            {link.name}
+                          </NavLink>
+                        </li>
+                      ))}
+                    </ul>
+                  </nav>
+
+                  {/* Extra bottom section (optional, like profile or logout links) */}
+                  <div className="mt-auto border-t p-4 text-sm text-gray-700 flex flex-col gap-4 font-medium">
+                    <p className="hover:text-pink-600 cursor-pointer">
+                      Profile
+                    </p>
+                    <p className="hover:text-pink-600 cursor-pointer">Orders</p>
+                    <p className="hover:text-pink-600 cursor-pointer">
+                      Wishlist
+                    </p>
+                    <p className="hover:text-pink-600 cursor-pointer">
+                      Contact Us
+                    </p>
+                  </div>
+                </div>
+              </>
+            )}
 
             {/* Logo */}
             <div className="w-20 h-10 md:h-12 flex-shrink-0">

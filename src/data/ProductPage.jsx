@@ -122,7 +122,7 @@ function ProductPage() {
   return (
     <div className="min-h-screen bg-white py-5">
       {/* Filter Bar */}
-      <div className="border-b border-gray-200 bg-white sticky top-14 z-10">
+      <div className="border-b border-gray-200 bg-white sticky top-20 z-10">
         <div className="max-w-full mx-auto px-4 py-3">
           <div className="flex items-center justify-between">
             <div className="flex items-center space-x-4">

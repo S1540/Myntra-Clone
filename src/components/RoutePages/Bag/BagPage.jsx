@@ -1,6 +1,7 @@
 import React, { useState } from "react";
 import { X, Tag, Info, ShoppingBag } from "lucide-react";
 import { useCart } from "../../../context/CratContext";
+import { Link } from "react-router-dom";
 
 export default function BagPage() {
   const { cart, removeFromBag } = useCart([]);
@@ -395,16 +396,18 @@ export default function BagPage() {
                     <span className="text-gray-900">₹{finalAmount}</span>
                   </div>
                 </div>
-                <button
-                  disabled={selectedCount === 0}
-                  className={`w-full mt-4 py-3 rounded font-semibold transition ${
-                    selectedCount === 0
-                      ? "bg-gray-300 text-gray-500 cursor-not-allowed"
-                      : "bg-pink-500 text-white hover:bg-pink-600"
-                  }`}
-                >
-                  PLACE ORDER
-                </button>
+                <Link to={"/orderSuccess"}>
+                  <button
+                    disabled={selectedCount === 0}
+                    className={`w-full mt-4 py-3 rounded font-semibold transition ${
+                      selectedCount === 0
+                        ? "bg-gray-300 text-gray-500 cursor-not-allowed"
+                        : "bg-pink-500 text-white hover:bg-pink-600"
+                    }`}
+                  >
+                    PLACE ORDER
+                  </button>
+                </Link>
               </div>
             </div>
           </div>
