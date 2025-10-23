@@ -141,24 +141,28 @@ export const LuxeGrandData = [
     image:
       "https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2025/JANUARY/10/vEWFYOye_14f4f7547ecb4c079855f8301128df46.png",
     categories: "Men",
+    category: "mens-watches",
   },
   {
     id: 2,
     image:
       "https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2025/JANUARY/10/yeoUJy1S_4e79c54bdd174052a9abcfac1d2a8bbd.png",
     categories: "Men",
+    category: "watches",
   },
   {
     id: 3,
     image:
       "https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2025/JANUARY/10/wFPkZ6H1_c9bb52d0824d4edcb2dbec7fe2f800d0.png",
     categories: "Men",
+    category: "Michael Kors",
   },
   {
     id: 4,
     image:
       "https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2025/JANUARY/10/RYMYFMOO_ab6eb526601841019b9acd933df1bed6.png",
     categories: "Men",
+    category: "watches-50%Off",
   },
   {
     id: 5,
@@ -171,6 +175,7 @@ export const LuxeGrandData = [
     image:
       "https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2025/JANUARY/10/aRBN2tk4_964c12c29366441ab74f35f4efdf9591.png",
     categories: "Men",
+    category: "mens-denims",
   },
   {
     id: 7,

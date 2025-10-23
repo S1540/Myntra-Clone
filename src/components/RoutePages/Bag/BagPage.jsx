@@ -76,18 +76,18 @@ export default function BagPage() {
   }
 
   return (
-    <div className="min-h-screen bg-gray-50">
+    <div className="min-h-screen bg-gray-50 overflow-hidden">
       <div className="max-w-7xl mx-auto px-4 py-6">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
           {/* Left Section - Cart Items */}
           <div className="lg:col-span-2 space-y-4">
             {/* Delivery Address */}
-            <div className="bg-pink-50 border border-pink-200 rounded-lg p-4 flex items-center justify-between">
+            <div className="bg-pink-50 border border-pink-200 rounded-lg px-4 py-1 flex items-center justify-between">
               <div className="flex items-center gap-2">
                 <span className="text-gray-700 font-medium">Deliver to:</span>
                 <span className="font-semibold text-gray-900">821115</span>
               </div>
-              <button className="px-4 py-2 border-2 border-pink-500 text-pink-500 rounded font-semibold hover:bg-pink-50 transition">
+              <button className="px-4 py-2 border border-pink-500 text-pink-500 rounded   text-sm md:text-base font-medium hover:bg-pink-50 transition">
                 CHANGE ADDRESS
               </button>
             </div>
@@ -139,7 +139,7 @@ export default function BagPage() {
                   >
                     REMOVE
                   </button>
-                  <button className="text-gray-600 font-medium hover:text-gray-900">
+                  <button className="text-gray-600 font-medium hover:text-gray-900 hidden md:block">
                     MOVE TO WISHLIST
                   </button>
                 </div>
@@ -288,7 +288,7 @@ export default function BagPage() {
             {/* Login Prompt */}
             <div className="bg-white rounded-lg p-4 border border-gray-200 flex items-center justify-between">
               <div className="flex items-center gap-4">
-                <div className="flex -space-x-2">
+                <div className="md:flex -space-x-2 hidden">
                   <div className="w-12 h-12 rounded-full bg-gray-300 border-2 border-white"></div>
                   <div className="w-12 h-12 rounded-full bg-pink-300 border-2 border-white"></div>
                   <div className="w-12 h-12 rounded-full bg-gray-400 border-2 border-white"></div>
@@ -297,7 +297,7 @@ export default function BagPage() {
                   Login to see items from your existing bag and wishlist.
                 </p>
               </div>
-              <button className="px-6 py-2 bg-white border-2 border-pink-500 text-pink-500 rounded font-semibold hover:bg-pink-50 transition">
+              <button className="px-1 py-2 bg-white border-2 border-pink-500 text-pink-500 rounded font-semibold hover:bg-pink-50 transition w-56">
                 LOGIN NOW
               </button>
             </div>

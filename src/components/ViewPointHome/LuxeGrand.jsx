@@ -5,6 +5,8 @@ import "swiper/css";
 import "swiper/css/pagination";
 import { Autoplay, Pagination } from "swiper/modules";
 
+import { Link } from "react-router-dom";
+
 const LuxeGrand = ({ LuxeGrandData }) => {
   return (
     <>
@@ -32,10 +34,9 @@ const LuxeGrand = ({ LuxeGrandData }) => {
             {LuxeGrandData.map((item, i) => (
               <SwiperSlide key={i}>
                 <div className="max-w-64 w-full bg-white rounded-lg shadow-md cursor-pointer">
-                  <img
-                    src={item.image}
-                    className="w-full object-cover rounded-md"
-                  />
+                  <Link to={`/product/${item.category}`}>
+                    <img src={item.image} className="w-full object-cover " />{" "}
+                  </Link>
                 </div>
               </SwiperSlide>
             ))}

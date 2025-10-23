@@ -1705,5 +1705,25 @@
       "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/29388750/2024/5/7/274f8d2e-165a-47de-a54b-9714c33a7f971715080072555USPoloAssnMensBrandPrintCottonOEV02Vest-PackOf14.jpg",
       "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/29388750/2024/5/7/828fc93f-c856-4685-9527-eaaa96f9e2421715080072576USPoloAssnMensBrandPrintCottonOEV02Vest-PackOf16.jpg"
     ]
+  },
+
+  {
+    "id": 99,
+    "brand": "Mast & Harbour",
+    "title": "Unisex Brass Dial & Stainless Steel Textured Straps Analogue Watch",
+    "price": 684,
+    "originalPrice": 1549,
+    "discountPercentage": 56,
+    "rating": 3.1,
+    "reviews": 3107,
+    "image": "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/JUNE/6/Vz4YHxXo_f9794c376bde4ea78270d55f0a916c3c.jpg",
+    "category": "mens-watches",
+    "images": [
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/JUNE/6/Vz4YHxXo_f9794c376bde4ea78270d55f0a916c3c.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/JUNE/6/N9iBdzjX_d9656e6eea5e4162b0dcf44f9571a148.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/JUNE/6/f4bNuuMC_3ffeb781f3bb4841a7e36966cee3ccc4.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/JUNE/6/dMBKValu_aa482c5433784cfb92f68af4320e2a95.jpg",
+      "https://assets.myntassets.com/h_1440,q_90,w_1080/v1/assets/images/2025/JUNE/6/e2ADGq9N_4e23d29e07a749f4ab8f7a09e01cb19c.jpg"
+    ]
   }
 ]
