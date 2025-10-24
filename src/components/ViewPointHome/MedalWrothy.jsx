@@ -3,6 +3,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Autoplay, Pagination } from "swiper/modules";
+import { ScrollDiscoverStore } from "../../data/pocketProduct";
 
 const MedalWrothy = ({ ModalWrothyData }) => {
   return (
@@ -39,14 +40,14 @@ const MedalWrothy = ({ ModalWrothyData }) => {
           <div className="swiper-pagination-pocket mt-4 flex justify-center"></div>
         </div>
         {/* Mobile View */}
-        <section className="py-4 md:hidden">
+        <section className="pt-4 md:hidden">
           <div>
             <img
               src="https://assets.myntassets.com/f_webp,dpr_1.5,q_auto:eco,w_600,c_limit,fl_progressive/assets/images/2025/JULY/7/NYRgBAf3_f6a48621f8d8422892bfd66ec077a807.jpg"
               alt=""
             />
           </div>
-          <div className="max-w-full pb-2 md:pb-4">
+          <div className="max-w-full pb-2 ">
             <Swiper
               slidesPerView={3}
               slidesPerGroup={2}
@@ -71,7 +72,7 @@ const MedalWrothy = ({ ModalWrothyData }) => {
                 </SwiperSlide>
               ))}
             </Swiper>
-            <div className="swiper-pagination-pocket mt-4 flex justify-center"></div>
+            <div className="swiper-pagination-pocket mt-2 flex justify-center"></div>
           </div>
         </section>
       </div>

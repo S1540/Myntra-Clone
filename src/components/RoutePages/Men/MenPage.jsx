@@ -39,12 +39,14 @@ const MenPage = () => {
 
   return (
     <>
-      <MenHero />
-      <RisingStars RisingStarsData={RisingMen} />
-      <LuxeGrand LuxeGrandData={LuxeGrandMen} />
-      <MedalWrothy ModalWrothyData={ModelWrothMen} />
-      <GrandGloble GrandGlobleData={GrandGlobeMen} />
-      <CategorySpecial CategoryData={MenCategories} />
+      <section className="px-2">
+        <MenHero />
+        <RisingStars RisingStarsData={RisingMen} />
+        <LuxeGrand LuxeGrandData={LuxeGrandMen} />
+        <MedalWrothy ModalWrothyData={ModelWrothMen} />
+        <GrandGloble GrandGlobleData={GrandGlobeMen} />
+        <CategorySpecial CategoryData={MenCategories} />
+      </section>
     </>
   );
 };

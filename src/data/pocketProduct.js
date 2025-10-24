@@ -89,6 +89,54 @@ export const ScrollData = [
     category: "under499",
   },
 ];
+// Scroll Discover Store
+export const ScrollDiscoverStore = [
+  {
+    image:
+      "https://assets.myntassets.com/f_webp,dpr_1.5,q_auto:eco,w_96,c_limit,fl_progressive/w_96,h_192,q_50,,dpr_3,fl_progressive,f_webp/assets/images/2025/SEPTEMBER/19/jEu3i56j_8a86272cd0ec4e90bf6e4395782cc335.png",
+    category: "store",
+  },
+  {
+    image:
+      "https://assets.myntassets.com/f_webp,dpr_1.5,q_auto:eco,w_96,c_limit,fl_progressive/w_96,h_192,q_50,,dpr_3,fl_progressive,f_webp/assets/images/2025/JUNE/16/aa5Qq16p_94c2139158344551b7ce618c743c949e.jpg",
+    category: "Ethnic Alley",
+  },
+  {
+    image:
+      "https://assets.myntassets.com/f_webp,dpr_1.5,q_auto:eco,w_96,c_limit,fl_progressive/w_96,h_192,q_50,,dpr_3,fl_progressive,f_webp/assets/images/2025/OCTOBER/9/EZe0cGu9_c5c652e468064215a3077ff76f832537.jpg",
+    category: "myntra brands",
+  },
+  {
+    image:
+      "https://assets.myntassets.com/f_webp,dpr_1.5,q_auto:eco,w_96,c_limit,fl_progressive/w_96,h_192,q_50,,dpr_3,fl_progressive,f_webp/assets/images/2025/OCTOBER/15/OCk1zU9d_83bf3a6815e241908d5ce7c49525dd42.png",
+    category: "winter wear",
+  },
+  {
+    image:
+      "https://assets.myntassets.com/f_webp,dpr_1.5,q_auto:eco,w_96,c_limit,fl_progressive/w_96,h_192,q_50,,dpr_3,fl_progressive,f_webp/assets/images/2025/MAY/29/DQFPvY9f_aeb397b63e804997bc5ce415ac91d86b.png",
+    category: "Home",
+  },
+  {
+    image:
+      "https://assets.myntassets.com/f_webp,dpr_1.5,q_auto:eco,w_96,c_limit,fl_progressive/w_96,h_192,q_50,,dpr_3,fl_progressive,f_webp/assets/images/2025/SEPTEMBER/4/NAKKELjK_01eac5205aa54966b46255551018eafa.jpg",
+    category: "kids wear",
+  },
+  {
+    image:
+      "https://assets.myntassets.com/f_webp,dpr_1.5,q_auto:eco,w_96,c_limit,fl_progressive/w_96,h_192,q_50,,dpr_3,fl_progressive,f_webp/assets/images/2024/DECEMBER/19/00WGev2t_d7b966d1fc7341fab7cef1df428ca034.jpg",
+    category: "Coupons",
+  },
+  {
+    image:
+      "https://assets.myntassets.com/f_webp,dpr_1.5,q_auto:eco,w_96,c_limit,fl_progressive/w_96,h_192,q_50,,dpr_3,fl_progressive,f_webp/assets/images/2025/OCTOBER/9/pN34wk1f_c1c4f1e2503540ff8286b1babb6c9cf9.jpg",
+    category: "Chhath puja",
+  },
+  {
+    image:
+      "https://assets.myntassets.com/f_webp,dpr_1.5,q_auto:eco,w_96,c_limit,fl_progressive/w_96,h_192,q_50,,dpr_3,fl_progressive,f_webp/assets/images/2024/DECEMBER/19/7rl9mon5_9889ac23ea6e4c99875676cc312c02ee.jpg",
+    category: "western avenue",
+  },
+];
 
 export const KidsSwiperData = [
   {
@@ -510,6 +558,82 @@ export const GrandGlobleData = [
     image:
       "https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2023/8/2/805eeb23-ec17-4b50-b798-1244133c02041690955797245-image_png_1993656242.png",
     categories: "Men",
+  },
+];
+// mobile category data
+export const mobileCategoriesData = [
+  {
+    id: 1,
+    image:
+      "https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2025/OCTOBER/6/y9T5Dlal_4cda60cf11114fb29482f566f820ead7.jpg",
+    categories: "Women",
+  },
+  {
+    id: 2,
+    image:
+      "https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2025/OCTOBER/6/GVe1u1Xy_5d4833016da645f898b8bf0150d48e13.jpg",
+    categories: "Men",
+  },
+  {
+    id: 3,
+    image:
+      "https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2025/OCTOBER/6/Ip3sUDUO_8b74bda15b7b423fb1678d20db2075f0.jpg",
+    categories: "Men",
+  },
+  {
+    id: 4,
+    image:
+      "https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2025/OCTOBER/6/8QDgjQoN_bf97a8e647174ffbaaa73a2d8db190d5.jpg",
+    categories: "Women",
+  },
+  {
+    id: 5,
+    image:
+      "https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2025/OCTOBER/6/LZ9lOt9J_8044cc3c762b4527b359cdc49128f352.jpg",
+    categories: "Men",
+  },
+  {
+    id: 6,
+    image:
+      "https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2025/OCTOBER/6/2cpV2zfF_3a55a1eefc4b46819ccc63ac1d433dfb.jpg",
+    categories: "General",
+  },
+  {
+    id: 7,
+    image:
+      "https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2025/OCTOBER/6/a0nlSne8_17ab00e239a541cbb6271f33d5c9c375.jpg",
+    categories: "Kids",
+  },
+  {
+    id: 8,
+    image:
+      "https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2025/OCTOBER/6/KsQ9uyYl_8db81f40de294cefb2b6eff9f66e362a.jpg",
+    categories: "Men",
+  },
+  {
+    id: 9,
+    image:
+      "https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2025/OCTOBER/6/30OGvdUa_f5e8e758c7fa4e47a119d5dccfe5f97a.jpg",
+    categories: "Women",
+  },
+
+  {
+    id: 10,
+    image:
+      "https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2025/OCTOBER/6/Ns3xE7uJ_22f817cf8a484ff3847e7ab54bd3b163.jpg",
+    categories: "General",
+  },
+  {
+    id: 11,
+    image:
+      "https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2025/OCTOBER/6/I65kxEq7_6b459dec92574c1e962c7cf43196c094.jpg",
+    categories: "Women",
+  },
+  {
+    id: 12,
+    image:
+      "https://assets.myntassets.com/f_webp,w_163,c_limit,fl_progressive,dpr_2.0/assets/images/2025/OCTOBER/6/ECLoW9MV_cd143689bc2a441c98ba717c34901364.jpg",
+    categories: "General",
   },
 ];
 
