@@ -237,6 +237,13 @@ const Header = () => {
             </div>
           </div>
         </div>
+        <div className="-mx-2 md:hidden pb-2">
+          <input
+            type="text"
+            placeholder="Search for brands and products... "
+            className="max-w-full w-full bg-white px-4 py-1 rounded-full outline-0 shadow-sm shadow-gray-300"
+          />
+        </div>
       </header>
 
       {/* Space below header */}

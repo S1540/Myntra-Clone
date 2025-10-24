@@ -4,6 +4,7 @@ import { Swiper, SwiperSlide } from "swiper/react";
 import "swiper/css";
 import "swiper/css/pagination";
 import { Autoplay, Pagination } from "swiper/modules";
+import { ScrollData } from "../../data/pocketProduct";
 const RisingStars = ({ RisingStarsData }) => {
   return (
     <>
@@ -64,6 +65,12 @@ const RisingStars = ({ RisingStarsData }) => {
             ))}
           </Swiper>
           <div className="swiper-pagination-pocket mt-4 mx-auto"></div>
+        </div>
+        {/* Scroll Offers */}
+        <div className="flex gap-3 overflow-x-auto pb-4 md:hidden">
+          {ScrollData.map((item, index) => (
+            <img key={index} src={item.image} alt="" className="h-36" />
+          ))}
         </div>
       </div>
     </>

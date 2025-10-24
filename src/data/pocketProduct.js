@@ -1,3 +1,95 @@
+export const MobileViewHero = [
+  {
+    image:
+      "https://assets.myntassets.com/f_webp,dpr_1.5,q_auto:eco,w_66,c_limit,fl_progressive/w_66,h_85,q_30,dpr_3,fl_progressive,f_webp/assets/images/2024/AUGUST/29/hfoZXZHm_24ee4cda7b4e46cbbfacf1f5b967bc38.jpg",
+    category: "mens-shirts",
+  },
+  {
+    image:
+      "https://assets.myntassets.com/f_webp,dpr_1.5,q_auto:eco,w_66,c_limit,fl_progressive/w_66,h_85,q_30,dpr_3,fl_progressive,f_webp/assets/images/2024/AUGUST/29/JTh2Vv2V_7ccdf9c0d3fd453db81df02576f10d65.jpg",
+    category: "mens-jeans",
+  },
+  {
+    image:
+      "https://assets.myntassets.com/f_webp,dpr_1.5,q_auto:eco,w_66,c_limit,fl_progressive/w_66,h_85,q_30,dpr_3,fl_progressive,f_webp/assets/images/2024/AUGUST/29/G2aT6ycX_54a28f527f5c4675bde41d8e996f7f1f.jpg",
+    category: "mens-t-shirts",
+  },
+  {
+    image:
+      "https://assets.myntassets.com/f_webp,dpr_1.5,q_auto:eco,w_66,c_limit,fl_progressive/w_66,h_85,q_30,dpr_3,fl_progressive,f_webp/assets/images/2024/AUGUST/29/HMMlYhP3_1faa2d80e2834c739ba09f931c86d434.jpg",
+    category: "casual-shoes",
+  },
+  {
+    image:
+      "https://assets.myntassets.com/f_webp,dpr_1.5,q_auto:eco,w_66,c_limit,fl_progressive/w_66,h_85,q_30,dpr_3,fl_progressive,f_webp/assets/images/2024/AUGUST/29/QEbvUpw4_385314d2a4064f6c873decdec0efa0da.jpg",
+    category: "sports-shoes",
+  },
+  {
+    image:
+      "https://assets.myntassets.com/f_webp,dpr_1.5,q_auto:eco,w_66,c_limit,fl_progressive/w_66,h_85,q_50,dpr_2,fl_progressive/assets/images/2025/APRIL/9/pHEd2wfy_be253188db01444688146d8f4b6f5485.gif",
+    category: "999offers",
+  },
+  {
+    image:
+      "https://assets.myntassets.com/f_webp,dpr_1.5,q_auto:eco,w_66,c_limit,fl_progressive/w_66,h_85,q_30,dpr_3,fl_progressive,f_webp/assets/images/2024/AUGUST/29/qOpINirr_2179aff64d36424693c82057807d417b.jpg",
+    category: "womens-dresses",
+  },
+  {
+    image:
+      "https://assets.myntassets.com/f_webp,dpr_1.5,q_auto:eco,w_66,c_limit,fl_progressive/w_66,h_85,q_30,dpr_3,fl_progressive,f_webp/assets/images/2024/AUGUST/29/N6hbRCmM_00d6f01948a54b71bb5c9f0bdc59f9b2.jpg",
+    category: "womens-wear",
+  },
+  {
+    image:
+      "https://assets.myntassets.com/f_webp,dpr_1.5,q_auto:eco,w_66,c_limit,fl_progressive/w_66,h_85,q_30,dpr_3,fl_progressive,f_webp/assets/images/2024/AUGUST/29/oFNnPGUu_12aab838dbe94fc18bfa1225d7aa8380.jpg",
+    category: "womens-kurtas",
+  },
+  {
+    image:
+      "https://assets.myntassets.com/f_webp,dpr_1.5,q_auto:eco,w_66,c_limit,fl_progressive/w_66,h_85,q_30,dpr_3,fl_progressive,f_webp/assets/images/2024/AUGUST/29/gaNtjjjE_19e41e73328d4831a8551f9a1e0cb53a.jpg",
+    category: "womens-jeans",
+  },
+];
+
+// Scroll data Hero
+export const ScrollData = [
+  {
+    image:
+      "https://assets.myntassets.com/f_webp,dpr_1.5,q_auto:eco,w_90,c_limit,fl_progressive/w_90,h_140,q_50,,dpr_3,fl_progressive,f_webp/assets/images/2025/JULY/15/LmgvPF0R_7a2557e85f3648dba59b8f23a98354ad.png",
+    category: "price store",
+  },
+  {
+    image:
+      "https://assets.myntassets.com/f_webp,dpr_1.5,q_auto:eco,w_90,c_limit,fl_progressive/w_90,h_140,q_50,,dpr_3,fl_progressive,f_webp/assets/images/2025/JULY/15/qxUhkBEu_12b9cd9ea2b04078a8e3c3c331df24c1.png",
+    category: "under99",
+  },
+  {
+    image:
+      "https://assets.myntassets.com/f_webp,dpr_1.5,q_auto:eco,w_90,c_limit,fl_progressive/w_90,h_140,q_50,,dpr_3,fl_progressive,f_webp/assets/images/2025/JULY/15/oeVn4pPB_eb8dff4cb79a4fcc999ebd237fdd1a83.png",
+    category: "under999",
+  },
+  {
+    image:
+      "https://assets.myntassets.com/f_webp,dpr_1.5,q_auto:eco,w_90,c_limit,fl_progressive/w_90,h_140,q_50,,dpr_3,fl_progressive,f_webp/assets/images/2025/JULY/15/02ZpJH6p_7b2ba7d6e6984309afe17b2ac559c0f2.png",
+    category: "80peroffers",
+  },
+  {
+    image:
+      "https://assets.myntassets.com/f_webp,dpr_1.5,q_auto:eco,w_90,c_limit,fl_progressive/w_90,h_140,q_50,,dpr_3,fl_progressive,f_webp/assets/images/2025/JULY/18/r6xc31V5_2fb55e9cf7c642c28dbf340358a7a226.png",
+    category: "under499",
+  },
+  {
+    image:
+      "https://assets.myntassets.com/f_webp,dpr_1.5,q_auto:eco,w_90,c_limit,fl_progressive/w_90,h_140,q_50,,dpr_3,fl_progressive,f_webp/assets/images/2025/JULY/18/KQQIJcjW_a2e27673bb04413a885626e1825eddf1.png",
+    category: "under499",
+  },
+  {
+    image:
+      "https://assets.myntassets.com/f_webp,dpr_1.5,q_auto:eco,w_90,c_limit,fl_progressive/w_90,h_140,q_50,,dpr_3,fl_progressive,f_webp/assets/images/2025/JULY/15/3hvGUxw4_8c3ed2e10f0c4f83a831232e74a4ef41.png",
+    category: "under499",
+  },
+];
+
 export const KidsSwiperData = [
   {
     id: 1,

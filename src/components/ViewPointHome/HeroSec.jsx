@@ -20,7 +20,7 @@ const HeroSec = () => {
     <>
       <section className="hero-section my-10 px-2 ">
         {/* <HeroSwiper HeroSwiperData={HeroSwiperData} /> */}
-        <HeroDiwali />
+        <HeroDiwali className="hidden" />
 
         {/* Pocked And OMG Deals */}
         <RisingStars RisingStarsData={RisingStarsData} />
