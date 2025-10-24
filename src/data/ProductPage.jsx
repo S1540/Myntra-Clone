@@ -229,7 +229,7 @@ function ProductPage() {
 
           {/* Product Grid */}
           <div className="flex-1">
-            <div className="grid grid-cols-2 md:grid-cols-3 xl:grid-cols-5 gap-6">
+            <div className="grid grid-cols-2 lg:grid-cols-3 xl:grid-cols-5 gap-6">
               {filteredProducts.map((product) => (
                 <div key={product.id} className="group cursor-pointer">
                   <div className="relative overflow-hidden bg-gray-100 mb-3">
