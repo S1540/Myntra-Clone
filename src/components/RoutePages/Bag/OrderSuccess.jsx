@@ -89,7 +89,7 @@ export default function OrderSuccess() {
   }
 
   return (
-    <div className="min-h-screen bg-gradient-to-b from-pink-50 to-white flex items-center justify-center p-4">
+    <div className="min-h-screen bg-gradient-to-b from-pink-50 to-white flex items-center justify-center px-4 pt-20 md:pt-4">
       <div className="max-w-md w-full">
         {/* Animated Check Circle */}
         <div className="flex justify-center mb-8">

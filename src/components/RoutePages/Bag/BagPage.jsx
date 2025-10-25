@@ -76,8 +76,8 @@ export default function BagPage() {
   }
 
   return (
-    <div className="min-h-screen bg-gray-50 overflow-hidden">
-      <div className="max-w-7xl mx-auto px-4 py-6">
+    <div className="min-h-screen bg-gray-50 overflow-hidden ">
+      <div className="max-w-7xl mx-auto px-4 py-20 md:py-6">
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-6">
           {/* Left Section - Cart Items */}
           <div className="lg:col-span-2 space-y-4">
