@@ -183,7 +183,7 @@ function ProductPage() {
                 <input
                   type="range"
                   min="100"
-                  max="999"
+                  max="2000"
                   value={priceRange[1]}
                   onChange={(e) =>
                     setPriceRange([priceRange[0], parseInt(e.target.value)])

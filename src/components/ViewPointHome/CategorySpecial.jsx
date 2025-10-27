@@ -20,7 +20,7 @@ const CategorySpecial = ({ CategoryData }) => {
           ))}
         </div>
         {/* on Mobile */}
-        <div className="w-full grid grid-cols-3 md:hiddden">
+        <div className="w-full grid grid-cols-3 md:hidden">
           {mobileCategoriesData.map((item, index) => (
             <img
               key={index}

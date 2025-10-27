@@ -265,6 +265,7 @@ export const RisingStarsData = [
     image:
       "https://assets.myntassets.com/f_webp,w_196,c_limit,fl_progressive,dpr_2.0/assets/images/2025/4/3/bc244f6b-ec59-4e0a-affb-84a062bdb5e11743665134126-image_png69923319.png",
     categories: "womens-jewellery",
+    category: "womens-jewellery",
   },
   {
     id: 15,
